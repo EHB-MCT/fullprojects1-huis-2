@@ -1,25 +1,32 @@
 /* TYPOGRAPHY */
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Salsa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Raleway&family=Salsa&display=swap");
 
 h1 {
+	font-family: "Salsa";
 }
 
 h2 {
+	font-family: "Salsa";
 }
 
 h3 {
+	font-family: "Salsa";
 }
 
 h4 {
-}
-
-h5 {
-}
-
-h6 {
+	font-family: "Salsa";
 }
 
 p {
+	font-family: "Raleway", sans-serif;
 }
 
 a {
+	font-family: "Raleway", sans-serif;
+	color: #00878b;
+}
+
+li {
+	font-family: "Raleway", sans-serif;
 }
