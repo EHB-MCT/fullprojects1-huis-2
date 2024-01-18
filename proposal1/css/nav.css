@@ -1,4 +1,19 @@
 /* NAVIGATION */
 
 nav {
+	background-color: #f5ccc7;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	margin: 0 20px;
+}
+
+nav li a {
+	color: #fff;
+	text-decoration: none;
 }
