@@ -3,27 +3,28 @@
 .btn-primary {
 	border-radius: 30px;
 	padding: 10px;
-	border: 2px solid #00878b;
 	text-decoration: none;
-	color: #00878b;
+	background-color: #c8d771;
 	font-weight: bold;
+	color: #000;
+	border: 2px solid #c8d771;
 }
 
 .btn-secondary {
 	border-radius: 30px;
 	padding: 10px;
-	border: 2px solid #f5ccc7;
+	border: 2px solid #c3382f;
 	text-decoration: none;
-	color: #f5ccc7;
+	color: #c3382f;
 	font-weight: bold;
 }
 
 .btn-primary:hover {
-	background-color: #00878b;
-	color: #fff;
+	border: 2px solid #c8d771;
+	background-color: #fff;
 }
 
 .btn-secondary:hover {
-	background-color: #f5ccc7;
+	background-color: #c3382f;
 	color: #fff;
 }

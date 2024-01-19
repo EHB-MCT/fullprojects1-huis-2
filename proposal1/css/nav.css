@@ -1,7 +1,6 @@
 /* NAVIGATION */
 
 nav {
-	background-color: #f5ccc7;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -14,6 +13,9 @@ nav li {
 }
 
 nav li a {
-	color: #fff;
+	color: #c3382f;
 	text-decoration: none;
+}
+nav img {
+	width: 70%;
 }
