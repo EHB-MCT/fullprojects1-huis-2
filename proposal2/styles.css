@@ -1,0 +1,65 @@
+@font-face {
+	font-family: "helvetica_rounded_lt_stdbold";
+	src: url("fonts/helveticaroundedltstd-bd-webfont.woff2") format("woff2"),
+		url("fonts/helveticaroundedltstd-bd-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "helvetica_neue_lt_std65Md";
+	src: url("fonts/helveticaneueltstd-md-webfont.woff2") format("woff2"),
+		url("fonts/helveticaneueltstd-md-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+img {
+	width: 200px;
+}
+
+h1 {
+	font-family: "helvetica_rounded_lt_stdbold", Helvetica, sans-serif;
+	font-size: 30pt;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: "helvetica_rounded_lt_stdbold", Helvetica, sans-serif;
+	font-size: 18pt;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: "helvetica_neue_lt_std65Md", Helvetica, sans-serif;
+	font-size: 14pt;
+}
+
+div.rood {
+	background-color: #c3382f;
+}
+
+div.groen {
+	background-color: #c2d95d;
+}
+
+div.zwart {
+	background-color: #000;
+	color: #fff;
+}
+
+div.left {
+	border: 30px solid #c3382f;
+	padding: 20px;
+}
+div.right {
+	border: 30px solid #c3382f;
+	padding: 20px;
+	margin-left: -30px;
+}
+
+div.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
