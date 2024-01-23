@@ -1,0 +1,154 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2");
+@import url(https://db.onlinewebfonts.com/c/7515664cb5fad83d8ce956ad409ccbb7?family=Helvetica+Rounded+LT+Std);
+
+body {
+	background-image: url(images/brick-wall.png);
+}
+
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-size: 54pt;
+}
+
+h2 {
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-size: 36pt;
+}
+
+h3 {
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+}
+
+p {
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 18pt;
+}
+
+a {
+	font-family: "Helvetica Neue", sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav li {
+	display: inline;
+	margin: 0 20px;
+}
+
+nav li a {
+	color: #c3382f;
+	text-decoration: none;
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+}
+
+nav li a:hover {
+	color: #000;
+}
+
+nav img {
+	width: 80%;
+	margin-top: 30px;
+}
+
+nav ul li:last-child a,
+nav ul li:nth-child(7) a {
+	color: #000;
+}
+
+nav ul li:last-child,
+nav ul li:nth-child(7) {
+	margin: 0px;
+}
+
+.active {
+	padding: 10px;
+	background-color: #c7d770;
+	border-radius: 30px;
+}
+
+.start {
+	text-align: center;
+}
+
+.splash {
+	margin: -60px 110px;
+}
+
+.jobs {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.jobs div {
+	width: 40%;
+}
+
+.blob {
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+.blob p {
+	margin: 160px 0px 0px 100px;
+	font-size: 14px;
+}
+
+.red {
+	background-image: url(images/red-shape.png);
+}
+
+.green {
+	background-image: url(images/green-shape.png);
+}
+
+.splash2 {
+	margin: -60px 380px;
+}
+
+.splash3 {
+	margin: -60px 360px;
+}
+
+#msg {
+	height: 150px;
+	width: 300px;
+}
+
+form {
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+input {
+	border-radius: 15px;
+	background-color: none;
+	background-color: rgba(0, 0, 0, 0);
+	margin-bottom: 20px;
+	height: 20px;
+}
+
+#submit {
+	height: 20px;
+}
+
+#submit:hover {
+	background-color: #cccccc;
+	cursor: pointer;
+}
+
+.sponsors {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
