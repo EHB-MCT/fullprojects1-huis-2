@@ -1,6 +1,8 @@
 body {
 	background-color: #efdfd1;
 	background-image: url(images/bricks\ bg.png);
+	margin: 0 auto;
+	width: 95%;
 }
 
 /* NAVIGATION */
@@ -11,7 +13,6 @@ nav {
 }
 
 nav li {
-	list-style-type: none;
 	display: inline;
 	margin: 0 20px;
 }
@@ -20,8 +21,30 @@ nav li a {
 	color: #c3382f;
 	text-decoration: none;
 }
+
+nav li a:hover {
+	color: #000;
+}
+
 nav img {
-	width: 70%;
+	width: 80%;
+	margin-top: 30px;
+}
+
+nav ul li:last-child a,
+nav ul li:nth-child(7) a {
+	color: #000;
+}
+
+nav ul li:last-child,
+nav ul li:nth-child(7) {
+	margin: 0px;
+}
+
+.active {
+	padding: 10px;
+	background-color: #c7d770;
+	border-radius: 30px;
 }
 
 /* TYPOGRAPHY */
@@ -62,4 +85,154 @@ li {
 
 nav li a {
 	font-family: "Helvetica Rounded LT Std", sans-serif;
+}
+
+/*BODY*/
+.intro-text {
+	width: 50%;
+	text-align: center;
+}
+
+.intro div {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10%;
+}
+
+.huis-vrede {
+	width: 35%;
+}
+
+.middle-1 {
+	margin: 0 auto;
+	width: 85%;
+}
+
+.doelgroep {
+	margin-left: 50%;
+	margin-top: -50%;
+}
+
+.green-spots {
+	margin-left: 38%;
+	margin-top: 10%;
+	margin-bottom: -10%;
+}
+
+.middle-2 {
+	margin: 0 auto;
+	width: 85%;
+	margin-top: -5%;
+}
+
+.middle-2-text {
+	width: 45%;
+	margin-bottom: 5%;
+}
+
+.red-spots {
+	margin-left: 17%;
+	margin-top: 3%;
+	margin-bottom: -5%;
+}
+
+.eetzaal {
+	margin-left: 55%;
+	margin-top: -40%;
+}
+
+.extra {
+	background-color: #c7d770;
+	color: #000;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+.steun {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 15%;
+}
+
+.steun img {
+	width: 20%;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 376px) {
+	.roof {
+		width: 60%;
+	}
+
+	h1 {
+		font-size: 20pt;
+	}
+
+	p {
+		font-size: 10pt;
+	}
+
+	.intro-text {
+		width: 70%;
+	}
+
+	.bottom {
+		width: 60%;
+	}
+
+	h2 {
+		font-size: 15pt;
+	}
+
+	.doelgroep {
+		text-align: center;
+		margin-left: -5%;
+		margin-top: -230%;
+	}
+
+	.huis-vrede {
+		margin-left: 20%;
+		margin-top: 140%;
+		width: 60%;
+	}
+
+	.green-spots {
+		width: 10%;
+		margin-left: 45%;
+	}
+
+	.eetzaal img {
+		width: 180%;
+		margin-top: 120%;
+		margin-left: -100%;
+	}
+
+	.middle-2-text {
+		width: 100%;
+		text-align: center;
+		margin-top: -8%;
+	}
+
+	.red-spots {
+		margin-top: 100%;
+		margin-left: 70%;
+		width: 10%;
+	}
+
+	.extra {
+		display: flex;
+		justify-content: center;
+	}
+
+	.steun {
+		width: 150%;
+		margin-left: -25%;
+	}
+
+	/*HAMBURGER MENU*/
+	/*❌*/
 }

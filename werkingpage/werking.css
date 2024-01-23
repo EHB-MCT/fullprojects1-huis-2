@@ -1,0 +1,151 @@
+body {
+	background-image: url(Images/brick-wall.png);
+}
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+/*Typography*/
+h1 {
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-size: 54pt;
+}
+
+h2 {
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-size: 36pt;
+}
+
+h3 {
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+}
+
+p {
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 16pt;
+}
+
+a {
+	font-family: "Helvetica Neue", sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* NAVIGATION */
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	margin: 0 20px;
+}
+
+nav li a {
+	color: #c3382f;
+	text-decoration: none;
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+}
+nav img {
+	width: 70%;
+}
+nav li a:hover {
+	color: black;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	transition: 0.5s;
+}
+.active {
+	padding: 10px;
+	background-color: #c7d770;
+	border-radius: 30px;
+}
+.start {
+	text-align: center;
+}
+.huis {
+	margin-left: 30%;
+}
+.werking {
+	margin-left: 15%;
+}
+.splash {
+	margin: -60px 380px;
+}
+
+.verloop {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.verloop div {
+	width: 40%;
+}
+.verloop div p {
+	font-size: 18pt;
+}
+.doel {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.doel div {
+	width: 40%;
+}
+.doel div p {
+	font-size: 14pt;
+}
+.blob {
+	background-repeat: no-repeat;
+}
+
+.red {
+	background-image: url(images/red-shape.png);
+}
+
+.green {
+	background-image: url(images/green-shape.png);
+}
+.hall {
+	height: 250px;
+	margin-top: 50px;
+	margin-left: 40px;
+}
+.kayak {
+	height: 350px;
+	margin-left: 60px;
+}
+.splash2 {
+	margin: -60px 320px;
+}
+
+.splash3 {
+	margin: -60px 360px;
+}
+.btn1 {
+	font-size: 15px;
+	color: white;
+	background: lightgreen;
+	text-decoration: none;
+	padding: 10px 18px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 20px;
+	letter-spacing: 2px;
+	transition: 0.5s;
+	margin-left: 10px;
+}
+.btn1:hover {
+	color: lightgreen;
+	background-color: white;
+}
+.sponsors {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
