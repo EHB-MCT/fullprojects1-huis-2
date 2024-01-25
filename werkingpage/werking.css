@@ -73,12 +73,12 @@ nav li a:hover {
 	color: black;
 	text-decoration: none;
 	padding: 10px;
-	background-color: lightgreen;
+	background-color: #c7d770;
 	border-radius: 30px;
 }
 .active {
 	padding: 10px;
-	background-color: lightgreen;
+	background-color: #c7d770;
 	border-radius: 30px;
 }
 .active:hover {
@@ -189,7 +189,7 @@ header {
 .btn1 {
 	font-size: 15px;
 	color: white;
-	background: lightgreen;
+	background: #c7d770;
 	text-decoration: none;
 	padding: 10px 18px;
 	text-transform: uppercase;
@@ -207,7 +207,7 @@ header {
 	width: 400px;
 	height: 650px;
 	overflow: hidden;
-	border: 6px solid lightgreen;
+	border: 6px solid #c7d770;
 	margin: 25px;
 	border-radius: 8px;
 	padding: 7px 15px #111;
@@ -240,7 +240,7 @@ header {
 	}
 }
 .btn1:hover {
-	color: lightgreen;
+	color: #c7d770;
 	background-color: white;
 }
 .bottom-streep {

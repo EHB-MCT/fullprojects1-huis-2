@@ -1,0 +1,108 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2");
+@font-face {
+	font-family: "Helvetica Rounded LT Std Black";
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot");
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff2")
+			format("woff2"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff")
+			format("woff"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.ttf")
+			format("truetype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.svg#Helvetica Rounded LT Std Black")
+			format("svg");
+}
+
+* {
+	font-family: "Helvetica Neue", sans-serif;
+	scroll-behavior: smooth;
+}
+.wrapper {
+	width: 85%;
+}
+/*Typography*/
+h1 {
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-size: 54pt;
+}
+
+h2 {
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-size: 36pt;
+}
+
+h3 {
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+}
+
+p {
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 16pt;
+}
+
+a {
+	font-family: "Helvetica Neue", sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* NAVIGATION */
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	margin: 0 20px;
+}
+
+nav li a {
+	color: #c3382f;
+	text-decoration: none;
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+}
+nav img {
+	width: 70%;
+}
+
+nav li a:hover {
+	color: black;
+}
+.active {
+	padding: 10px;
+	background-color: #c7d770;
+	border-radius: 30px;
+}
+
+header {
+	text-align: center;
+	width: auto;
+	margin-left: 170px;
+}
+.kaart {
+	display: flex;
+	flex-flow: row-reverse;
+}
+
+.adres-text {
+	margin-left: 5%;
+}
+
+.kaart_1 {
+	margin-right: 5%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+
+.extra {
+	color: #000;
+	background-color: #c7d770;
+	padding: 10px 15px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+}
