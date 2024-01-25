@@ -1,5 +1,18 @@
 @import url("https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2");
-@import url(https://db.onlinewebfonts.com/c/7515664cb5fad83d8ce956ad409ccbb7?family=Helvetica+Rounded+LT+Std);
+@font-face {
+	font-family: "Helvetica Rounded LT Std Black";
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot");
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff2")
+			format("woff2"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff")
+			format("woff"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.ttf")
+			format("truetype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.svg#Helvetica Rounded LT Std Black")
+			format("svg");
+}
 
 /*algemeen*/
 
@@ -21,12 +34,12 @@ html {
 }
 
 h1 {
-	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
 	font-size: 54pt;
 }
 
 h2 {
-	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
 	font-size: 36pt;
 }
 
@@ -54,7 +67,7 @@ nav li {
 
 nav li a {
 	color: #c3382f;
-	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
 }
 
 nav li a:hover {
@@ -62,7 +75,7 @@ nav li a:hover {
 }
 
 nav img {
-	width: 80%;
+	width: 50%;
 	margin-top: 30px;
 }
 
@@ -86,10 +99,7 @@ nav ul li:nth-child(7) {
 
 header {
 	text-align: center;
-}
-
-.splash-jobs {
-	margin: -60px 110px;
+	width: auto;
 }
 
 .jobs {
@@ -102,40 +112,29 @@ header {
 	width: 42%;
 }
 
+.jobs a {
+	color: #c3382f;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	border-radius: 15px;
+	background-color: #c7d770;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.a-first {
+	margin-top: 140px;
+}
+
+/* "solliciteer nu" link */
+
 .jobs h2 + p a {
 	color: #c3382f;
 	text-decoration: underline;
-	margin-right: 8px;
-}
-
-.blob {
-	background-repeat: no-repeat;
-	color: #fff;
-	min-width: 410px;
-}
-
-.blob p {
-	margin: 160px 0px 0px 85px;
-	font-size: 16px;
-}
-
-.red {
-	background-image: url(images/red-shape.png);
-}
-
-.green {
-	background-image: url(images/green-shape.png);
-}
-
-.splash-vrijwilligersw {
-	margin: -60px 380px;
+	margin: 0px 8px 0px 0px;
+	background-color: rgba(0, 0, 0, 0);
 }
 
 /*formulier*/
-
-.splash-sollicitatie {
-	margin: -60px 360px;
-}
 
 #msg {
 	padding-bottom: 150px;
@@ -143,7 +142,7 @@ header {
 }
 
 form {
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
 	font-size: 18pt;
 }
 
@@ -152,6 +151,7 @@ input {
 	background-color: rgba(0, 0, 0, 0);
 	margin-bottom: 20px;
 	height: 30px;
+	width: 200px;
 }
 
 #myfile {
@@ -159,12 +159,16 @@ input {
 }
 
 #submit {
-	height: 30px;
-	font-size: 14pt;
+	font-size: 18pt;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	padding-bottom: 30px;
+	background-color: #c7d770;
+	border: rgba(0, 0, 0, 0);
+	margin-bottom: 100px;
 }
 
 #submit:hover {
-	background-color: #cccccc;
+	background-color: #c3382f;
 	cursor: pointer;
 }
 
@@ -173,7 +177,6 @@ input {
 footer {
 	display: flex;
 	justify-content: space-around;
-	padding: 100px 0px 30px 0px;
 }
 
 /*responsive */
@@ -186,51 +189,10 @@ footer {
 	.jobs div {
 		width: 100%;
 	}
-	.blob {
-		height: 350px;
-	}
-	.green {
+	.mobile {
 		order: 2;
 	}
-	nav img {
-		width: 90%;
+	.a-first {
+		margin-top: 0;
 	}
-	body {
-		margin: 0 auto;
-	}
-	.wrapper {
-		margin: 0 auto;
-	}
-}
-
-.splash-jobs-fr {
-	margin: -60px 190px;
-}
-
-.splash-vrijwilligersw-fr {
-	margin: -60px 250px;
-}
-
-.splash-sollicitatie-fr {
-	margin: -60px 280px;
-}
-
-@media screen and (max-width: 422px) {
-	.splash-sollicitatie {
-		margin: -125px 110px;
-	}
-}
-
-@media screen and (max-width: 337px) {
-	.splash-sollicitatie-fr {
-		margin: -125px 70px;
-	}
-}
-
-.green-archief {
-	background-image: url(images/green-shape2.png);
-}
-
-.red-archief {
-	background-image: url(images/red-shape2.png);
 }
