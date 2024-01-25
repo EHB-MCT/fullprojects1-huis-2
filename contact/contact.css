@@ -44,12 +44,21 @@ h2 {
 	font-size: 36pt;
 }
 
+h3 {
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-size: 20pt;
+}
+
 p {
 	font-size: 18pt;
 }
 
-a {
+nav a {
 	text-decoration: none;
+}
+
+a {
+	color: #c3382f;
 }
 
 /* navigatie */
@@ -100,8 +109,6 @@ nav ul li:nth-child(8) {
 	padding: 1px 10px;
 }
 
-/*jobs & vrijwilligerswerk*/
-
 header {
 	text-align: center;
 }
@@ -110,77 +117,9 @@ header {
 	width: 100%;
 }
 
-.jobs {
+.flex {
 	display: flex;
-	justify-content: space-between;
-	margin-bottom: 100px;
 }
-
-.jobs div {
-	width: 42%;
-}
-
-.jobs a {
-	color: #c3382f;
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
-	border-radius: 15px;
-	background-color: #c7d770;
-	display: inline-block;
-	margin-bottom: 10px;
-}
-
-.a-first {
-	margin-top: 140px;
-}
-
-/* "solliciteer nu" link */
-
-.jobs h2 + p a {
-	color: #c3382f;
-	text-decoration: underline;
-	margin: 0px 8px 0px 0px;
-	background-color: rgba(0, 0, 0, 0);
-}
-
-/*formulier*/
-
-#msg {
-	padding-bottom: 150px;
-	width: 300px;
-}
-
-form {
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
-	font-size: 18pt;
-}
-
-input {
-	border-radius: 15px;
-	background-color: rgba(0, 0, 0, 0);
-	margin-bottom: 20px;
-	height: 30px;
-	width: 200px;
-}
-
-#myfile {
-	border-radius: 0;
-}
-
-#submit {
-	font-size: 18pt;
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
-	padding-bottom: 30px;
-	background-color: #c7d770;
-	border: rgba(0, 0, 0, 0);
-	margin-bottom: 100px;
-}
-
-#submit:hover {
-	background-color: #c3382f;
-	cursor: pointer;
-}
-
-/*footer */
 
 footer {
 	display: flex;
@@ -192,37 +131,15 @@ footer {
 	margin: 0 auto;
 }
 
-/*responsive */
-
-@media screen and (max-width: 768px) {
-	.jobs,
-	footer {
-		flex-wrap: wrap;
-	}
-	.jobs div {
-		width: 100%;
-	}
-	.mobile {
-		order: 2;
-	}
-	.a-first {
-		margin-top: 0;
-	}
-	.h2-mobile {
-		max-width: 500px;
-		word-wrap: break-word;
-	}
-	nav img {
-		display: none;
-	}
-	nav {
-		text-align: center;
-	}
+.location {
+	border: 15px solid #c3382f;
+	border-radius: 10px;
+	margin-left: 42vh;
 }
 
-@media screen and (max-width: 1488px) {
-	nav li {
-		margin-bottom: 10px;
-		display: inline-block;
+@media screen and (max-width: 768px) {
+	.flex div {
+		flex-wrap: wrap;
+		flex: 1;
 	}
 }
