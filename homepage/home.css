@@ -177,7 +177,47 @@ h3 {
 }
 
 /*CAROESEL*/
+/*home*/
 /*❌*/
+/*historiek*/
+.carousel {
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: -50px;
+	margin-bottom: 5%;
+}
+.images_out_1 {
+	width: 550px;
+	height: 480px;
+	margin-left: 700px;
+	overflow: hidden;
+	margin: 25px;
+	border-radius: 8px;
+	padding: 7px 15px #111;
+}
+.images_in_1 {
+	display: flex;
+	animation-duration: 15s;
+	animation-name: before_after;
+	animation-iteration-count: infinite;
+}
+@keyframes before_after {
+	0% {
+		transform: translateX(0px);
+	}
+	25% {
+		transform: translateX(-580px);
+	}
+	50% {
+		transform: translateX(-1150px);
+	}
+	75% {
+		transform: translateX(-1720px);
+	}
+	100% {
+		transform: translateX(-2290px);
+	}
+}
 
 /*RESPONSIVE*/
 @media screen and (max-width: 376px) {
@@ -263,6 +303,10 @@ h3 {
 
 	.sponsors img {
 		width: 30%;
+	}
+
+	.carousel {
+		margin-left: -15%;
 	}
 
 	/*HAMBURGER MENU*/
