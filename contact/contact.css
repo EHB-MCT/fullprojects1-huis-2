@@ -1,0 +1,145 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2");
+@font-face {
+	font-family: "Helvetica Rounded LT Std Black";
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot");
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff2")
+			format("woff2"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff")
+			format("woff"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.ttf")
+			format("truetype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.svg#Helvetica Rounded LT Std Black")
+			format("svg");
+}
+
+/*algemeen*/
+
+body {
+	background-image: url(images/brick-wall.png);
+	background-size: cover;
+	background-position: center;
+	font-family: "Helvetica Neue", sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-size: 54pt;
+}
+
+h2 {
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-size: 36pt;
+}
+
+h3 {
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-size: 20pt;
+}
+
+p {
+	font-size: 18pt;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+a {
+	color: #c3382f;
+}
+
+/* navigatie */
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav li {
+	display: inline;
+	margin: 0 20px;
+}
+
+nav li a {
+	color: #c3382f;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+}
+
+nav li a:hover {
+	color: #000;
+}
+
+nav img {
+	width: 50%;
+	margin-top: 30px;
+}
+
+nav ul li:nth-child(9) a,
+nav ul li:nth-child(7) a {
+	color: #000;
+}
+
+nav ul li:nth-child(9),
+nav ul li:nth-child(7),
+nav ul li:nth-child(8) {
+	margin: 0px;
+}
+
+.active {
+	padding: 10px;
+	background-color: #c7d770;
+	border-radius: 30px;
+}
+
+.nav {
+	padding: 1px 10px;
+}
+
+header {
+	text-align: center;
+}
+
+.house {
+	width: 100%;
+}
+
+.flex {
+	display: flex;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+}
+
+.align-center {
+	display: block;
+	margin: 0 auto;
+}
+
+.location {
+	border: 15px solid #c3382f;
+	border-radius: 10px;
+	margin-left: 42vh;
+}
+
+@media screen and (max-width: 768px) {
+	.flex div {
+		flex-wrap: wrap;
+		flex: 1;
+	}
+}
