@@ -1,9 +1,26 @@
-body {
-	background-image: url(Images/brick-wall.png);
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2");
+@font-face {
+	font-family: "Helvetica Rounded LT Std Black";
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot");
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff2")
+			format("woff2"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff")
+			format("woff"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.ttf")
+			format("truetype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.svg#Helvetica Rounded LT Std Black")
+			format("svg");
+}
+
+* {
+	background-image: url(images/brick-wall.png);
+	font-family: "Helvetica Neue", sans-serif;
+	scroll-behavior: smooth;
 }
 .wrapper {
 	width: 85%;
-	margin: 0 auto;
 }
 /*Typography*/
 h1 {
@@ -55,38 +72,86 @@ nav img {
 nav li a:hover {
 	color: black;
 	text-decoration: none;
-	letter-spacing: 0.5px;
-	transition: 0.5s;
 }
 .active {
 	padding: 10px;
-	background-color: #c7d770;
+	background-color: black;
 	border-radius: 30px;
 }
-.start {
+
+header {
 	text-align: center;
-}
-.huis {
-	margin-left: 30%;
-}
-.werking {
-	margin-left: 15%;
-}
-.splash {
-	margin: -60px 380px;
+	width: auto;
+	margin-left: 110px;
 }
 
 .verloop {
-	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 	margin-bottom: 100px;
 }
+.verloop h2 {
+	width: 100%;
+	margin-left: 80px;
+	margin-top: -10px;
+	font-size: 25pt;
+}
 
 .verloop div {
-	width: 40%;
+	width: 55%;
+	margin-left: 500px;
 }
+
 .verloop div p {
-	font-size: 18pt;
+	font-size: 12pt;
+	width: 70%;
+	margin-right: -45px;
+}
+.tekst {
+	width: 52%;
+	margin-left: 450px;
+	margin-top: -75px;
+	margin-bottom: 70px;
+}
+.tekst_1 {
+	font-size: 12pt;
+}
+.carousel {
+	margin-left: 380px;
+	margin-top: -50px;
+}
+.images_out_1 {
+	width: 700px;
+	height: 400px;
+	margin-left: 500px;
+	overflow: hidden;
+	margin: 25px;
+	border-radius: 8px;
+	padding: 7px 15px #111;
+	background-color: #111;
+}
+.images_in_1 {
+	display: flex;
+	animation-duration: 15s;
+	animation-name: before_after;
+	animation-iteration-count: infinite;
+}
+@keyframes before_after {
+	0% {
+		transform: translateX(0px);
+	}
+	25% {
+		transform: translateX(-700px);
+	}
+	50% {
+		transform: translateX(-1400px);
+	}
+	75% {
+		transform: translateX(-2100px);
+	}
+	100% {
+		transform: translateX(-2800px);
+	}
 }
 .doel {
 	display: flex;
@@ -100,17 +165,7 @@ nav li a:hover {
 .doel div p {
 	font-size: 14pt;
 }
-.blob {
-	background-repeat: no-repeat;
-}
 
-.red {
-	background-image: url(images/red-shape.png);
-}
-
-.green {
-	background-image: url(images/green-shape.png);
-}
 .hall {
 	height: 250px;
 	margin-top: 50px;
@@ -120,13 +175,7 @@ nav li a:hover {
 	height: 350px;
 	margin-left: 60px;
 }
-.splash2 {
-	margin: -60px 320px;
-}
 
-.splash3 {
-	margin: -60px 360px;
-}
 .btn1 {
 	font-size: 15px;
 	color: white;
