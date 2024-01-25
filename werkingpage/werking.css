@@ -15,7 +15,6 @@
 }
 
 * {
-	background-image: url(images/brick-wall.png);
 	font-family: "Helvetica Neue", sans-serif;
 	scroll-behavior: smooth;
 }
@@ -69,20 +68,26 @@ nav li a {
 nav img {
 	width: 70%;
 }
+
 nav li a:hover {
 	color: black;
 	text-decoration: none;
+	padding: 10px;
+	background-color: lightgreen;
+	border-radius: 30px;
 }
 .active {
 	padding: 10px;
-	background-color: black;
+	background-color: lightgreen;
 	border-radius: 30px;
 }
-
+.active:hover {
+	background-color: white;
+}
 header {
 	text-align: center;
 	width: auto;
-	margin-left: 110px;
+	margin-left: 170px;
 }
 
 .verloop {
@@ -92,7 +97,7 @@ header {
 }
 .verloop h2 {
 	width: 100%;
-	margin-left: 80px;
+	margin-left: 110px;
 	margin-top: -10px;
 	font-size: 25pt;
 }
@@ -196,6 +201,7 @@ header {
 }
 .carousel_2 {
 	margin-left: 150px;
+	margin-right: -150px;
 }
 .images_out_2 {
 	width: 400px;
@@ -237,8 +243,16 @@ header {
 	color: lightgreen;
 	background-color: white;
 }
+.bottom-streep {
+	width: 100%;
+	margin-bottom: 2%;
+}
+
 .sponsors {
 	display: flex;
-	justify-content: space-around;
-	padding: 20px;
+	justify-content: space-evenly;
+}
+
+.sponsors img {
+	width: 22%;
 }
