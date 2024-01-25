@@ -22,6 +22,7 @@ body {
 	background-position: center;
 	font-family: "Helvetica Neue", sans-serif;
 	overflow-x: hidden;
+	margin: 0;
 }
 
 html {
@@ -48,7 +49,6 @@ p {
 }
 
 a {
-	color: #fff;
 	text-decoration: none;
 }
 
@@ -85,7 +85,8 @@ nav ul li:nth-child(7) a {
 }
 
 nav ul li:nth-child(9),
-nav ul li:nth-child(7) {
+nav ul li:nth-child(7),
+nav ul li:nth-child(8) {
 	margin: 0px;
 }
 
@@ -95,11 +96,18 @@ nav ul li:nth-child(7) {
 	border-radius: 30px;
 }
 
+.nav {
+	padding: 1px 10px;
+}
+
 /*jobs & vrijwilligerswerk*/
 
 header {
 	text-align: center;
-	width: auto;
+}
+
+.house {
+	width: 100%;
 }
 
 .jobs {
@@ -179,6 +187,11 @@ footer {
 	justify-content: space-around;
 }
 
+.align-center {
+	display: block;
+	margin: 0 auto;
+}
+
 /*responsive */
 
 @media screen and (max-width: 768px) {
@@ -194,5 +207,22 @@ footer {
 	}
 	.a-first {
 		margin-top: 0;
+	}
+	.h2-mobile {
+		max-width: 500px;
+		word-wrap: break-word;
+	}
+	nav img {
+		display: none;
+	}
+	nav {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1488px) {
+	nav li {
+		margin-bottom: 10px;
+		display: inline-block;
 	}
 }
