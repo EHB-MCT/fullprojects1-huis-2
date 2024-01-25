@@ -108,7 +108,7 @@ header {
 	margin-right: -45px;
 }
 .tekst {
-	width: 52%;
+	width: 48%;
 	margin-left: 450px;
 	margin-top: -75px;
 	margin-bottom: 70px;
@@ -119,12 +119,14 @@ header {
 .carousel {
 	margin-left: 380px;
 	margin-top: -50px;
+	margin-bottom: 100px;
 }
 .images_out_1 {
 	width: 700px;
 	height: 400px;
 	margin-left: 500px;
 	overflow: hidden;
+	border: 6px solid red;
 	margin: 25px;
 	border-radius: 8px;
 	padding: 7px 15px #111;
@@ -140,30 +142,33 @@ header {
 	0% {
 		transform: translateX(0px);
 	}
-	25% {
+	20% {
 		transform: translateX(-700px);
 	}
-	50% {
+	40% {
 		transform: translateX(-1400px);
 	}
-	75% {
+	60% {
 		transform: translateX(-2100px);
 	}
-	100% {
+	80% {
 		transform: translateX(-2800px);
+	}
+	100% {
+		transform: translateX(0px);
 	}
 }
 .doel {
 	display: flex;
-	justify-content: space-between;
+
 	margin-bottom: 100px;
 }
 
 .doel div {
-	width: 40%;
+	width: 60%;
 }
 .doel div p {
-	font-size: 14pt;
+	font-size: 12pt;
 }
 
 .hall {
@@ -188,6 +193,45 @@ header {
 	letter-spacing: 2px;
 	transition: 0.5s;
 	margin-left: 10px;
+}
+.carousel_2 {
+	margin-left: 150px;
+}
+.images_out_2 {
+	width: 400px;
+	height: 650px;
+	overflow: hidden;
+	border: 6px solid lightgreen;
+	margin: 25px;
+	border-radius: 8px;
+	padding: 7px 15px #111;
+	background-color: #111;
+}
+.images_in_2 {
+	display: flex;
+	animation-duration: 15s;
+	animation-name: before_after;
+	animation-iteration-count: infinite;
+}
+@keyframes before_after {
+	0% {
+		transform: translateX(0px);
+	}
+	20% {
+		transform: translateX(-700px);
+	}
+	40% {
+		transform: translateX(-1400px);
+	}
+	60% {
+		transform: translateX(-2100px);
+	}
+	80% {
+		transform: translateX(-2800px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
 }
 .btn1:hover {
 	color: lightgreen;
