@@ -129,11 +129,12 @@ nav li a {
 .vrede {
 	width: 200%;
 	position: relative;
-	margin-top: -18%;
+	margin-top: -19%;
 }
 
 .vrede-streep {
 	width: 150%;
+	height: 5%;
 	position: relative;
 	margin-top: 45%;
 }
