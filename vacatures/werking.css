@@ -1,6 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2");
 @font-face {
-	font-family: "Helvetica Rounded LT Std Black";
+	font-family: "Helvetica Rounded LT Std Black Black";
 	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot");
 	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot?#iefix")
 			format("embedded-opentype"),
@@ -23,17 +23,17 @@
 }
 /*Typography*/
 h1 {
-	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
 	font-size: 54pt;
 }
 
 h2 {
-	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
 	font-size: 36pt;
 }
 
 h3 {
-	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
 }
 
 p {
@@ -63,7 +63,7 @@ nav li {
 nav li a {
 	color: #c3382f;
 	text-decoration: none;
-	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
 }
 nav img {
 	width: 70%;
