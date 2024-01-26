@@ -17,6 +17,12 @@
 body {
 	margin: 0 auto;
 	width: 97%;
+	overflow-x: hidden;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 /* NAVIGATION */
