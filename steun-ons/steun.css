@@ -1,6 +1,28 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2");
+@font-face {
+	font-family: "Helvetica Rounded LT Std Black";
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot");
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff2")
+			format("woff2"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff")
+			format("woff"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.ttf")
+			format("truetype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.svg#Helvetica Rounded LT Std Black")
+			format("svg");
+}
+
 body {
 	margin: 0 auto;
-	width: 95%;
+	width: 97%;
+	overflow-x: hidden;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 /* NAVIGATION */
@@ -97,18 +119,21 @@ nav li a {
 	width: 100%;
 }
 
+.steun-ons {
+	display: flex;
+	flex-flow: row-reverse;
+}
+
 .steun-ons-text {
-	text-align: center;
-	width: 60%;
-	margin: auto;
+	width: 50%;
 	margin-bottom: 12%;
 	margin-top: 10%;
 }
 
 .doek {
 	width: 50%;
-	margin-left: 25%;
-	margin-bottom: 10%;
+	height: 50%;
+	margin-top: 8%;
 }
 
 .bottom-streep {
