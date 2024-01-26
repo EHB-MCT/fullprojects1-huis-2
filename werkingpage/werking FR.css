@@ -128,23 +128,24 @@ header {
 	margin-right: -45px;
 }
 .tekst {
-	width: 48%;
-	margin-left: 450px;
+	width: 80%;
+	margin-left: 250px;
 	margin-top: -75px;
 	margin-bottom: 70px;
+	text-align: center;
 }
 
 .carousel {
-	margin-left: 380px;
+	margin-left: 350px;
 	margin-top: -50px;
 	margin-bottom: 100px;
 }
 .images_out_1 {
 	width: 700px;
-	height: 400px;
+	height: 240px;
 	margin-left: 500px;
 	overflow: hidden;
-	border: 6px solid red;
+	border: 15px solid red;
 	margin: 25px;
 	border-radius: 8px;
 	padding: 7px 15px #111;
@@ -186,6 +187,10 @@ header {
 	width: 60%;
 }
 
+.doel-text {
+	width: 120%;
+}
+
 .hall {
 	height: 250px;
 	margin-top: 50px;
@@ -212,7 +217,7 @@ header {
 	width: 400px;
 	height: 650px;
 	overflow: hidden;
-	border: 6px solid #c7d770;
+	border: 15px solid #c7d770;
 	margin: 25px;
 	border-radius: 8px;
 	padding: 7px 15px #111;
