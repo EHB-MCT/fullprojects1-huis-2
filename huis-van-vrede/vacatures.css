@@ -227,6 +227,9 @@ footer img {
 	.jobs div {
 		width: 100%;
 	}
+	.jobs .text {
+		width: 100%;
+	}
 	.mobile {
 		order: 2;
 	}
@@ -242,6 +245,9 @@ footer img {
 	}
 	nav {
 		text-align: center;
+	}
+	.mobile a {
+		margin: 0;
 	}
 }
 
