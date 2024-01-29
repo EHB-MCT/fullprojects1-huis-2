@@ -16,9 +16,13 @@
 
 body {
 	margin: 0 auto;
-	width: 95%;
 	overflow-x: hidden;
 	font-family: "Helvetica Neue", sans-serif;
+}
+
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
 }
 
 html {
@@ -114,24 +118,28 @@ li {
 
 /*BODY*/
 .intro-house {
+	width: 95%;
+	margin: 0 auto;
 	display: flex;
 	flex-flow: row-reverse;
 	justify-content: space-evenly;
+	margin-bottom: 5%;
+	margin-top: 5%;
 }
 
 .house {
-	width: 80%;
+	width: 90%;
 	margin-bottom: 10%;
 }
 
 .vrede {
 	width: 200%;
 	position: relative;
-	margin-top: -19%;
+	margin-top: -22%;
 }
 
 .vrede-streep {
-	width: 150%;
+	width: 180%;
 	height: 5%;
 	position: relative;
 	margin-top: 45%;
@@ -144,6 +152,7 @@ h3 {
 
 .doelgroep {
 	display: flex;
+	margin-bottom: 5%;
 }
 
 .doelgroep-text {
@@ -171,7 +180,7 @@ h3 {
 	margin-bottom: 10%;
 }
 
-.extra {
+.lees-meer {
 	color: #000;
 	background-color: #c7d770;
 	padding: 10px 15px;
@@ -187,11 +196,11 @@ h3 {
 
 .sponsors {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 .sponsors img {
-	width: 20%;
+	width: 50%;
 }
 
 /*CAROESEL*/
@@ -205,10 +214,12 @@ h3 {
 	margin-bottom: 5%;
 }
 .images_out_1 {
-	width: 550px;
-	height: 480px;
+	width: 510px;
+	height: 400px;
 	margin-left: 700px;
 	overflow: hidden;
+	border: 15px solid #c7d770;
+	border-radius: 8px;
 	margin: 25px;
 	border-radius: 8px;
 	padding: 7px 15px #111;
@@ -224,16 +235,16 @@ h3 {
 		transform: translateX(0px);
 	}
 	25% {
-		transform: translateX(-580px);
+		transform: translateX(-530px);
 	}
 	50% {
-		transform: translateX(-1150px);
+		transform: translateX(-1060px);
 	}
 	75% {
-		transform: translateX(-1720px);
+		transform: translateX(-1580px);
 	}
 	100% {
-		transform: translateX(-2290px);
+		transform: translateX(-2100px);
 	}
 }
 

@@ -99,6 +99,22 @@ nav ul li:nth-child(8) {
 	padding: 1px 10px;
 }
 
+/*historiek*/
+.historiek-text {
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	margin-top: -7%;
+}
+
+.puerto {
+	width: 30%;
+	border: 15px solid #c3382f;
+	border-radius: 8px;
+	margin-left: 35%;
+	margin-bottom: 5%;
+}
+
 /*jobs & vrijwilligerswerk*/
 
 header {
@@ -126,6 +142,14 @@ header {
 	background-color: #c7d770;
 	display: inline-block;
 	margin-bottom: 10px;
+}
+
+.jobs .text {
+	width: 52%;
+}
+
+.mobile a {
+	margin-left: 15%;
 }
 
 .a-first {
