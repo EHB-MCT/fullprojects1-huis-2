@@ -144,6 +144,7 @@ h3 {
 
 .doelgroep {
 	display: flex;
+	margin-bottom: 5%;
 }
 
 .doelgroep-text {
@@ -171,7 +172,7 @@ h3 {
 	margin-bottom: 10%;
 }
 
-.extra {
+.lees-meer {
 	color: #000;
 	background-color: #c7d770;
 	padding: 10px 15px;
@@ -205,10 +206,12 @@ h3 {
 	margin-bottom: 5%;
 }
 .images_out_1 {
-	width: 550px;
-	height: 480px;
+	width: 510px;
+	height: 400px;
 	margin-left: 700px;
 	overflow: hidden;
+	border: 15px solid #c7d770;
+	border-radius: 8px;
 	margin: 25px;
 	border-radius: 8px;
 	padding: 7px 15px #111;
@@ -224,16 +227,16 @@ h3 {
 		transform: translateX(0px);
 	}
 	25% {
-		transform: translateX(-580px);
+		transform: translateX(-530px);
 	}
 	50% {
-		transform: translateX(-1150px);
+		transform: translateX(-1060px);
 	}
 	75% {
-		transform: translateX(-1720px);
+		transform: translateX(-1580px);
 	}
 	100% {
-		transform: translateX(-2290px);
+		transform: translateX(-2100px);
 	}
 }
 
