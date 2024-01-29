@@ -16,8 +16,6 @@
 /*algemeen*/
 
 body {
-	background-image: url(images/brick-wall.png);
-	background-size: cover;
 	background-position: center;
 	font-family: "helvetica_neue_lt_std65Md", sans-serif;
 	overflow-x: hidden;
