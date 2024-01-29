@@ -120,13 +120,13 @@ header {
 	display: flex;
 }
 
-footer {
+.sponsors {
 	display: flex;
 	justify-content: space-around;
 }
 
-footer img {
-	width: 70%;
+.sponsors img {
+	width: 80%;
 }
 
 .align-center {
