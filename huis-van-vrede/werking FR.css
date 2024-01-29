@@ -1,0 +1,272 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2");
+@font-face {
+	font-family: "Helvetica Rounded LT Std Black";
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot");
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff2")
+			format("woff2"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff")
+			format("woff"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.ttf")
+			format("truetype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.svg#Helvetica Rounded LT Std Black")
+			format("svg");
+}
+
+* {
+	font-family: "Helvetica Neue", sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Helvetica Neue", sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+}
+
+.wrapper {
+	width: 85%;
+}
+/*Typography*/
+h1 {
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-size: 54pt;
+}
+
+h2 {
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-size: 36pt;
+}
+
+h3 {
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+}
+
+p {
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 18pt;
+}
+
+a {
+	font-family: "Helvetica Neue", sans-serif;
+	text-decoration: none;
+}
+
+/* NAVIGATION */
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	margin: 0 20px;
+}
+
+nav li a {
+	color: #c3382f;
+	text-decoration: none;
+	font-family: "Helvetica Rounded LT Std", sans-serif;
+}
+nav img {
+	width: 70%;
+}
+
+nav li a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+nav img {
+	width: 50%;
+	margin-top: 30px;
+}
+
+nav ul li:nth-child(9) a,
+nav ul li:nth-child(7) a {
+	color: #000;
+}
+
+nav ul li:nth-child(9),
+nav ul li:nth-child(7),
+nav ul li:nth-child(8) {
+	margin: 0px;
+}
+
+.active {
+	padding: 10px;
+	background-color: #c7d770;
+	border-radius: 30px;
+}
+
+.werking-btn {
+	padding: 1px 10px;
+	background-color: #c7d770;
+	border-radius: 30px;
+}
+
+header {
+	text-align: center;
+	width: auto;
+	margin-left: 170px;
+}
+
+.verloop {
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+.verloop h2 {
+	width: 100%;
+	margin-left: -60px;
+	margin-top: -10px;
+}
+
+.verloop div {
+	width: 55%;
+	margin-left: 500px;
+}
+
+.verloop div p {
+	width: 70%;
+	margin-right: -45px;
+}
+.tekst {
+	width: 80%;
+	margin-left: 250px;
+	margin-top: -75px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+.carousel {
+	margin-left: 350px;
+	margin-top: -50px;
+	margin-bottom: 100px;
+}
+.images_out_1 {
+	width: 700px;
+	height: 240px;
+	margin-left: 500px;
+	overflow: hidden;
+	border: 15px solid #c3382f;
+	margin: 25px;
+	border-radius: 8px;
+	padding: 7px 15px #111;
+	background-color: #111;
+}
+.images_in_1 {
+	display: flex;
+	animation-duration: 15s;
+	animation-name: before_after;
+	animation-iteration-count: infinite;
+}
+@keyframes before_after {
+	0% {
+		transform: translateX(0px);
+	}
+	20% {
+		transform: translateX(-700px);
+	}
+	40% {
+		transform: translateX(-1400px);
+	}
+	60% {
+		transform: translateX(-2100px);
+	}
+	80% {
+		transform: translateX(-2800px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+.doel {
+	display: flex;
+
+	margin-bottom: 100px;
+}
+
+.doel div {
+	width: 60%;
+}
+
+.doel-text {
+	width: 120%;
+}
+
+.hall {
+	height: 250px;
+	margin-top: 50px;
+	margin-left: 40px;
+}
+.kayak {
+	height: 350px;
+	margin-left: 60px;
+}
+
+.btn1 {
+	color: #000;
+	background-color: #c7d770;
+	padding: 10px 15px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.carousel_2 {
+	margin-left: 150px;
+	margin-right: -150px;
+}
+.images_out_2 {
+	width: 400px;
+	height: 650px;
+	overflow: hidden;
+	border: 15px solid #c7d770;
+	margin: 25px;
+	border-radius: 8px;
+	padding: 7px 15px #111;
+	background-color: #111;
+}
+.images_in_2 {
+	display: flex;
+	animation-duration: 15s;
+	animation-name: before_after;
+	animation-iteration-count: infinite;
+}
+@keyframes before_after {
+	0% {
+		transform: translateX(0px);
+	}
+	20% {
+		transform: translateX(-700px);
+	}
+	40% {
+		transform: translateX(-1400px);
+	}
+	60% {
+		transform: translateX(-2100px);
+	}
+	80% {
+		transform: translateX(-2800px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+
+.bottom-streep {
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+.sponsors {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.sponsors img {
+	width: 20%;
+}

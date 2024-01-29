@@ -1,0 +1,247 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2");
+@font-face {
+	font-family: "Helvetica Rounded LT Std Black";
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot");
+	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff2")
+			format("woff2"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff")
+			format("woff"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.ttf")
+			format("truetype"),
+		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.svg#Helvetica Rounded LT Std Black")
+			format("svg");
+}
+
+/*algemeen*/
+
+body {
+	background-image: url(images/brick-wall.png);
+	background-size: cover;
+	font-family: "Helvetica Neue", sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-size: 54pt;
+}
+
+h2 {
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-size: 36pt;
+}
+
+p {
+	font-size: 18pt;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* navigatie */
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav li {
+	display: inline;
+	margin: 0 20px;
+}
+
+nav li a {
+	color: #c3382f;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+}
+
+nav li a:hover {
+	color: #000;
+}
+
+nav img {
+	width: 50%;
+	margin-top: 30px;
+}
+
+nav ul li:nth-child(9) a,
+nav ul li:nth-child(7) a {
+	color: #000;
+}
+
+nav ul li:nth-child(9),
+nav ul li:nth-child(7),
+nav ul li:nth-child(8) {
+	margin: 0px;
+}
+
+.active {
+	padding: 10px;
+	background-color: #c7d770;
+	border-radius: 30px;
+}
+
+.nav {
+	padding: 1px 10px;
+}
+
+/*historiek*/
+.historiek-text {
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	margin-top: -5%;
+}
+
+.puerto {
+	width: 32%;
+	border: 15px solid #c3382f;
+	border-radius: 8px;
+	margin-left: 33%;
+	margin-bottom: 5%;
+}
+
+/*jobs & vrijwilligerswerk*/
+
+header {
+	text-align: center;
+}
+
+.house {
+	width: 100%;
+}
+
+.jobs {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.jobs div {
+	width: 42%;
+}
+
+.jobs a {
+	color: #c3382f;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	border-radius: 15px;
+	background-color: #c7d770;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.a-first {
+	margin-top: 140px;
+}
+
+/* "solliciteer nu" link */
+
+.jobs h2 + p a {
+	color: #c3382f;
+	text-decoration: underline;
+	margin: 0px 8px 0px 0px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/*formulier*/
+
+#msg {
+	padding-bottom: 150px;
+	width: 300px;
+}
+
+form {
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-size: 18pt;
+}
+
+input {
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0);
+	margin-bottom: 20px;
+	height: 30px;
+	width: 200px;
+}
+
+#myfile {
+	border-radius: 0;
+}
+
+#submit {
+	font-size: 18pt;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	padding-bottom: 30px;
+	background-color: #c7d770;
+	border: rgba(0, 0, 0, 0);
+	margin-bottom: 100px;
+}
+
+#submit:hover {
+	background-color: #c3382f;
+	cursor: pointer;
+}
+
+/*footer */
+
+footer {
+	display: flex;
+	justify-content: space-around;
+}
+
+footer img {
+	width: 70%;
+}
+
+.align-center {
+	display: block;
+	margin: 0 auto;
+}
+
+/*responsive */
+
+@media screen and (max-width: 768px) {
+	.jobs,
+	footer {
+		flex-wrap: wrap;
+	}
+	.jobs div {
+		width: 100%;
+	}
+	.mobile {
+		order: 2;
+	}
+	.a-first {
+		margin-top: 0;
+	}
+	.h2-mobile {
+		max-width: 500px;
+		word-wrap: break-word;
+	}
+	nav img {
+		display: none;
+	}
+	nav {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1488px) {
+	nav li {
+		margin-bottom: 10px;
+		display: inline-block;
+	}
+}
