@@ -1,17 +1,17 @@
-@import url("https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2");
 @font-face {
-	font-family: "Helvetica Rounded LT Std Black";
-	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot");
-	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot?#iefix")
-			format("embedded-opentype"),
-		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff2")
-			format("woff2"),
-		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff")
-			format("woff"),
-		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.ttf")
-			format("truetype"),
-		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.svg#Helvetica Rounded LT Std Black")
-			format("svg");
+	font-family: "helvetica_rounded_lt_stdblack";
+	src: url("fonts/helveticaroundedltstd-black-webfont.woff2") format("woff2"),
+		url("fonts/helveticaroundedltstd-black-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "helvetica_neue_lt_std65Md";
+	src: url("fonts/helveticaneueltstd-md-webfont.woff2") format("woff2"),
+		url("fonts/helveticaneueltstd-md-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
 /*algemeen*/
@@ -19,7 +19,7 @@
 body {
 	background-image: url(images/brick-wall.png);
 	background-size: cover;
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: "helvetica_neue_lt_std65Md", sans-serif;
 	overflow-x: hidden;
 	margin: 0;
 }
@@ -34,12 +34,12 @@ html {
 }
 
 h1 {
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	font-size: 54pt;
 }
 
 h2 {
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	font-size: 36pt;
 }
 
@@ -66,7 +66,7 @@ nav li {
 
 nav li a {
 	color: #c3382f;
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 }
 
 nav li a:hover {
@@ -137,7 +137,7 @@ header {
 
 .jobs a {
 	color: #c3382f;
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	border-radius: 15px;
 	background-color: #c7d770;
 	display: inline-block;
@@ -173,7 +173,7 @@ header {
 }
 
 form {
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	font-size: 18pt;
 }
 
@@ -191,7 +191,7 @@ input {
 
 #submit {
 	font-size: 18pt;
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	padding-bottom: 30px;
 	background-color: #c7d770;
 	border: rgba(0, 0, 0, 0);
