@@ -144,6 +144,14 @@ header {
 	margin-bottom: 10px;
 }
 
+.jobs .text {
+	width: 52%;
+}
+
+.mobile a {
+	margin-left: 15%;
+}
+
 .a-first {
 	margin-top: 140px;
 }

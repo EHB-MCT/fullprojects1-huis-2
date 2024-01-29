@@ -42,17 +42,14 @@ nav li a {
 	text-decoration: none;
 }
 
-nav li a:hover {
-	color: #000;
-}
-
 nav img {
 	width: 50%;
 	margin-top: 30px;
 }
 
 nav ul li:last-child a,
-nav ul li:nth-child(7) a {
+nav ul li:nth-child(7) a,
+nav li a:hover {
 	color: #000;
 }
 
@@ -127,8 +124,7 @@ nav li a {
 
 .steun-ons-text {
 	width: 50%;
-	margin-bottom: 12%;
-	margin-top: 10%;
+	margin: 10% 0 12% 0;
 }
 
 .doek {
