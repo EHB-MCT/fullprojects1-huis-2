@@ -85,15 +85,6 @@ h2 {
 	font-size: 36pt;
 }
 
-h3 {
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
-	font-size: 25pt;
-}
-
-h4 {
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
-}
-
 p {
 	font-family: "Helvetica Neue", sans-serif;
 	font-size: 18pt;
@@ -102,10 +93,6 @@ p {
 a {
 	font-family: "Helvetica Neue", sans-serif;
 	color: #c3382f;
-}
-
-li {
-	font-family: "Helvetica Neue", sans-serif;
 }
 
 nav li a {
