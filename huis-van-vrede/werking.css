@@ -38,7 +38,6 @@ h2 {
 	font-size: 36pt;
 }
 
-<<<<<<< HEAD
 h3 {
 	font-family: "Helvetica Rounded LT Std Black", sans-serif;
 	color: #c3382f;
@@ -49,21 +48,16 @@ h4 {
 	font-family: "Helvetica Rounded LT Std Black", sans-serif;
 }
 
-=======
->>>>>>> dc67d173db8c6cba0a9891f64fdcc9463b0cf1c5
 p {
 	font-family: "Helvetica Neue", sans-serif;
 	font-size: 18pt;
 }
 
-<<<<<<< HEAD
 a {
 	font-family: "Helvetica Neue", sans-serif;
 	color: #c3382f;
 }
 
-=======
->>>>>>> dc67d173db8c6cba0a9891f64fdcc9463b0cf1c5
 /* NAVIGATION */
 nav {
 	display: flex;
