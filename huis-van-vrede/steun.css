@@ -1,23 +1,23 @@
-@import url("https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2");
 @font-face {
-	font-family: "Helvetica Rounded LT Std Black";
-	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot");
-	src: url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.eot?#iefix")
-			format("embedded-opentype"),
-		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff2")
-			format("woff2"),
-		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.woff")
-			format("woff"),
-		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.ttf")
-			format("truetype"),
-		url("https://db.onlinewebfonts.com/t/bae3d8bd0621c2cc191f2d9926f4b382.svg#Helvetica Rounded LT Std Black")
-			format("svg");
+	font-family: "helvetica_rounded_lt_stdblack";
+	src: url("fonts/helveticaroundedltstd-black-webfont.woff2") format("woff2"),
+		url("fonts/helveticaroundedltstd-black-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "helvetica_neue_lt_std65Md";
+	src: url("fonts/helveticaneueltstd-md-webfont.woff2") format("woff2"),
+		url("fonts/helveticaneueltstd-md-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
 body {
 	margin: 0 auto;
 	overflow-x: hidden;
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: "helvetica_neue_lt_std65Md", sans-serif;
 }
 
 .wrapper {
@@ -78,27 +78,27 @@ nav ul li:nth-child(8) {
 /* TYPOGRAPHY */
 
 h1 {
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	font-size: 100pt;
 }
 
 h2 {
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	font-size: 36pt;
 }
 
 p {
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: "helvetica_neue_lt_std65Md", sans-serif;
 	font-size: 18pt;
 }
 
 a {
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: "helvetica_neue_lt_std65Md", sans-serif;
 	color: #c3382f;
 }
 
 nav li a {
-	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 }
 
 /*BODY*/
