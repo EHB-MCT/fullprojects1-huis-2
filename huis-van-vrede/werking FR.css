@@ -14,11 +14,6 @@
 			format("svg");
 }
 
-* {
-	font-family: "Helvetica Neue", sans-serif;
-	scroll-behavior: smooth;
-}
-
 body {
 	font-family: "Helvetica Neue", sans-serif;
 	overflow-x: hidden;
@@ -28,19 +23,28 @@ body {
 .wrapper {
 	width: 85%;
 }
+
 /*Typography*/
 h1 {
-	font-family: "Helvetica Rounded LT Std", sans-serif;
-	font-size: 54pt;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	font-size: 100pt;
+	color: #c3382f;
+	font-weight: bold;
 }
 
 h2 {
-	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
 	font-size: 36pt;
 }
 
 h3 {
-	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
+	color: #c3382f;
+	font-size: 25pt;
+}
+
+h4 {
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
 }
 
 p {
@@ -50,7 +54,7 @@ p {
 
 a {
 	font-family: "Helvetica Neue", sans-serif;
-	text-decoration: none;
+	color: #c3382f;
 }
 
 /* NAVIGATION */
@@ -69,7 +73,7 @@ nav li {
 nav li a {
 	color: #c3382f;
 	text-decoration: none;
-	font-family: "Helvetica Rounded LT Std", sans-serif;
+	font-family: "Helvetica Rounded LT Std Black", sans-serif;
 }
 nav img {
 	width: 70%;
@@ -120,8 +124,8 @@ header {
 	margin-bottom: 100px;
 }
 .verloop h2 {
-	width: 100%;
-	margin-left: -60px;
+	width: 200%;
+	margin-left: -20%;
 	margin-top: -10px;
 }
 
@@ -264,9 +268,9 @@ header {
 
 .sponsors {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 .sponsors img {
-	width: 20%;
+	width: 50%;
 }
