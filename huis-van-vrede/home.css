@@ -47,17 +47,14 @@ nav li a {
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 }
 
-nav li a:hover {
-	color: #000;
-}
-
 nav img {
 	width: 50%;
 	margin-top: 30px;
 }
 
 nav ul li:last-child a,
-nav ul li:nth-child(7) a {
+nav ul li:nth-child(7) a,
+nav li a:hover {
 	color: #000;
 }
 
@@ -75,8 +72,6 @@ nav ul li:nth-child(8) {
 
 .home-button {
 	padding: 1px 10px;
-	background-color: #c7d770;
-	border-radius: 30px;
 }
 
 /* TYPOGRAPHY */
@@ -84,7 +79,6 @@ h1 {
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	font-size: 100pt;
 	color: #c3382f;
-	font-weight: bold;
 }
 
 h2 {
@@ -96,10 +90,7 @@ h3 {
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	color: #c3382f;
 	font-size: 25pt;
-}
-
-h4 {
-	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
+	margin: -10% 0% 0% 20%;
 }
 
 p {
@@ -110,10 +101,6 @@ p {
 a {
 	font-family: "helvetica_neue_lt_std65Md", sans-serif;
 	color: #c3382f;
-}
-
-li {
-	font-family: "helvetica_neue_lt_std65Md", sans-serif;
 }
 
 /*BODY*/
@@ -145,24 +132,22 @@ li {
 	margin-top: 45%;
 }
 
-h3 {
-	margin-left: 20%;
-	margin-top: -10%;
-}
-
 .doelgroep {
 	display: flex;
 	margin-bottom: 5%;
 }
 
 .doelgroep-text {
-	margin-left: 10%;
-	margin-right: 5%;
+	margin: 0% 5% 0% 10%;
 }
 
 .huis-vrede {
+<<<<<<< HEAD
 	margin-left: 5%;
 	margin-bottom: 6%;
+=======
+	margin: 0% 0% 5% 5%;
+>>>>>>> 8a6df08be1d5eaf3ccef4abf3a53087a4d17d148
 }
 
 .historiek {
@@ -175,9 +160,7 @@ h3 {
 }
 
 .eetzaal {
-	margin-right: 5%;
-	margin-left: 10%;
-	margin-bottom: 10%;
+	margin: 0% 5% 10% 10%;
 }
 
 .lees-meer {
@@ -186,7 +169,7 @@ h3 {
 	padding: 10px 15px;
 	border-radius: 20px;
 	text-decoration: none;
-	font-weight: bold;
+	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 }
 
 .bottom-streep {
@@ -208,21 +191,15 @@ h3 {
 /*❌*/
 /*historiek*/
 .carousel {
-	margin-right: 5%;
-	margin-left: 5%;
-	margin-top: -50px;
-	margin-bottom: 5%;
+	margin: -50px 5% 5% 5%;
 }
 .images_out_1 {
 	width: 510px;
 	height: 400px;
-	margin-left: 700px;
 	overflow: hidden;
 	border: 15px solid #c7d770;
 	border-radius: 8px;
 	margin: 25px;
-	border-radius: 8px;
-	padding: 7px 15px #111;
 }
 .images_in_1 {
 	display: flex;
@@ -257,6 +234,7 @@ h3 {
 
 	h3 {
 		font-size: 15pt;
+<<<<<<< HEAD
 		margin-top: 80%;
 		width: 200%;
 		margin-left: 30%;
@@ -266,6 +244,10 @@ h3 {
 	.vrede {
 		margin-top: -25%;
 		margin-left: 10%;
+=======
+		width: 200%;
+		margin: 50% 0% 40% 50%;
+>>>>>>> 8a6df08be1d5eaf3ccef4abf3a53087a4d17d148
 	}
 
 	.house {
@@ -276,15 +258,18 @@ h3 {
 	}
 
 	.intro-text {
-		margin-left: 50%;
-		margin-top: -5%;
+		margin: -5% 0% 0% 50%;
 	}
 
 	.vrede-streep {
 		width: 180%;
 		height: 3%;
+<<<<<<< HEAD
 		margin-top: 80%;
 		margin-left: 8%;
+=======
+		margin: 60% 0 -5% 0%;
+>>>>>>> 8a6df08be1d5eaf3ccef4abf3a53087a4d17d148
 	}
 
 	h2 {
@@ -294,8 +279,7 @@ h3 {
 	.huis-vrede {
 		width: 50%;
 		height: 50%;
-		margin-left: 25%;
-		margin-bottom: -2%;
+		margin: 0% 0% -2% 25%;
 	}
 
 	.doelgroep {
@@ -304,8 +288,7 @@ h3 {
 
 	.doelgroep-text {
 		text-align: center;
-		margin-bottom: 20%;
-		margin-left: 4%;
+		margin: 0% 0% 20% 4%;
 	}
 
 	p {
@@ -319,9 +302,8 @@ h3 {
 
 	.historiek-text {
 		text-align: center;
-		margin-left: 5%;
 		width: 90%;
-		margin-top: -10%;
+		margin: -10% 0% 0% 5%;
 	}
 
 	a {

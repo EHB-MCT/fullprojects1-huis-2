@@ -67,17 +67,14 @@ nav li a {
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 }
 
-nav li a:hover {
-	color: #000;
-}
-
 nav img {
 	width: 50%;
 	margin-top: 30px;
 }
 
 nav ul li:nth-child(9) a,
-nav ul li:nth-child(7) a {
+nav ul li:nth-child(7) a,
+nav li a:hover {
 	color: #000;
 }
 
@@ -109,8 +106,7 @@ nav ul li:nth-child(8) {
 	width: 30%;
 	border: 15px solid #c3382f;
 	border-radius: 8px;
-	margin-left: 35%;
-	margin-bottom: 5%;
+	margin: 0% 0% 5% 35%;
 }
 
 /*jobs & vrijwilligerswerk*/
@@ -126,7 +122,7 @@ header {
 .jobs {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 100px;
+	margin-bottom: 10%;
 }
 
 .jobs div {
@@ -151,7 +147,7 @@ header {
 }
 
 .a-first {
-	margin-top: 140px;
+	margin-top: 25%;
 }
 
 /* "solliciteer nu" link */
@@ -166,8 +162,8 @@ header {
 /*formulier*/
 
 #msg {
-	padding-bottom: 150px;
-	width: 300px;
+	padding-bottom: 10%;
+	width: 30%;
 }
 
 form {
@@ -180,7 +176,7 @@ input {
 	background-color: rgba(0, 0, 0, 0);
 	margin-bottom: 20px;
 	height: 30px;
-	width: 200px;
+	width: 15%;
 }
 
 #myfile {
@@ -190,10 +186,9 @@ input {
 #submit {
 	font-size: 18pt;
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
-	padding-bottom: 30px;
 	background-color: #c7d770;
 	border: rgba(0, 0, 0, 0);
-	margin-bottom: 100px;
+	margin-bottom: 8%;
 }
 
 #submit:hover {
@@ -227,6 +222,9 @@ input {
 	.jobs div {
 		width: 100%;
 	}
+	.jobs .text {
+		width: 100%;
+	}
 	.mobile {
 		order: 2;
 	}
@@ -242,6 +240,15 @@ input {
 	}
 	nav {
 		text-align: center;
+	}
+	.mobile a {
+		margin: 0;
+	}
+	.sponsors img {
+		width: 50%;
+	}
+	.sponsors {
+		flex-wrap: wrap;
 	}
 }
 
