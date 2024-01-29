@@ -114,6 +114,11 @@ header {
 	width: 100%;
 }
 
+.bottom-streep {
+	margin-top: 5%;
+	width: 100%;
+}
+
 .flex {
 	display: flex;
 }
