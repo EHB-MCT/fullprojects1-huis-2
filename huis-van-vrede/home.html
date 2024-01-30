@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
 		<title>Huis van Vrede - Home</title>
 		<link rel="stylesheet" href="home.css" />
 	</head>
@@ -34,6 +35,42 @@
 							thuislozen in Brussel.
 						</h3>
 					</div>
+				</div>
+
+				<div class="video-container">
+					<a-scene embedded>
+						<a-sky
+							rotation="0 -90 0"
+							src="#local360image"
+							look-controls-enabled="false"
+							mipmapping="true"
+						></a-sky>
+
+						<a-sphere
+							position="0 0 0"
+							radius="1"
+							color="#EF2D5E"
+							id="interactionSphere"
+							visible="false"
+						></a-sphere>
+
+						<!-- Ajoutez un sol -->
+						<a-plane
+							rotation="-90 0 0"
+							width="30"
+							height="30"
+							color="#7BC8A4"
+							visible="false"
+						></a-plane>
+
+						<a-assets>
+							<img
+								id="local360image"
+								src="images/Huis_van_vrede_zaal.png"
+								crossorigin="anonymous"
+							/>
+						</a-assets>
+					</a-scene>
 				</div>
 				<div class="doelgroep">
 					<img
@@ -96,5 +133,16 @@
 				</footer>
 			</div>
 		</div>
+		<script>
+			// Ajoutez un gestionnaire d'événements pour l'interaction utilisateur
+			document
+				.getElementById("interactionSphere")
+				.addEventListener("click", function () {
+					// Activez les contrôles du regard lorsqu'on clique sur la sphère
+					document
+						.querySelector("a-sky")
+						.setAttribute("look-controls-enabled", "true");
+				});
+		</script>
 	</body>
 </html>
