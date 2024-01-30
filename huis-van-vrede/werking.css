@@ -139,8 +139,7 @@ header img {
 	width: 40%;
 	border: 15px solid #c3382f;
 	border-radius: 8px;
-	margin-bottom: 8%;
-	margin-top: 3%;
+	margin: 3% 0% 8% 0%;
 }
 
 .carousel {

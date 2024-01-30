@@ -73,8 +73,6 @@ nav ul li:nth-child(8) {
 
 .steun-ons-button {
 	padding: 1px 10px;
-	background-color: #c7d770;
-	border-radius: 30px;
 }
 
 /* TYPOGRAPHY */
@@ -111,7 +109,7 @@ a {
 
 .steun-ons-text {
 	width: 50%;
-	margin: 10% 0 12% 0;
+	margin: 6% 0 12% 0;
 }
 
 .doek {
