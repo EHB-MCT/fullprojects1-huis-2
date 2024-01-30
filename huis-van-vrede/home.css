@@ -142,8 +142,12 @@ a {
 }
 
 .huis-vrede {
+<<<<<<< HEAD
 	margin-left: 5%;
 	margin-bottom: 6%;
+=======
+	margin: 0% 0% 5% 5%;
+>>>>>>> 055b73eba44006299e5f0c28dd173f06927fbcf4
 }
 
 .historiek {
@@ -196,7 +200,6 @@ a {
 	animation-name: before_after;
 	animation-iteration-count: infinite;
 }
-
 @keyframes before_after {
 	0% {
 		transform: translateX(0px);
@@ -223,6 +226,7 @@ a {
 
 	h3 {
 		font-size: 15pt;
+<<<<<<< HEAD
 		margin-top: 80%;
 		width: 200%;
 		margin-left: 30%;
@@ -232,13 +236,16 @@ a {
 	.vrede {
 		margin-top: -25%;
 		margin-left: 10%;
+=======
+		width: 200%;
+		margin: 50% 0% 40% 50%;
+>>>>>>> 055b73eba44006299e5f0c28dd173f06927fbcf4
 	}
 
 	.house {
 		margin-right: 50%;
-		width: 100%;
+		width: 55%;
 		height: 55%;
-		margin-left: -50%;
 	}
 
 	.intro-text {
@@ -248,8 +255,12 @@ a {
 	.vrede-streep {
 		width: 180%;
 		height: 3%;
+<<<<<<< HEAD
 		margin-top: 80%;
 		margin-left: 8%;
+=======
+		margin: 60% 0 -5% 0%;
+>>>>>>> 055b73eba44006299e5f0c28dd173f06927fbcf4
 	}
 
 	h2 {
@@ -273,7 +284,12 @@ a {
 
 	p {
 		font-size: 10pt;
-		margin-bottom: 10%;
+	}
+
+	.eetzaal {
+		width: 70%;
+		height: 70%;
+		margin-left: 15%;
 	}
 
 	.historiek {
@@ -295,7 +311,7 @@ a {
 	}
 
 	.sponsors img {
-		width: 90%;
+		width: 30%;
 	}
 
 	.carousel {
