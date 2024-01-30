@@ -79,7 +79,7 @@ nav li a {
 
 nav img {
 	width: 50%;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 nav ul li:nth-child(9) a,
@@ -110,6 +110,7 @@ header {
 
 .house {
 	width: 100%;
+	margin-top: 1.5%;
 }
 
 .bottom-streep {
