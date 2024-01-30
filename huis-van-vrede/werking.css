@@ -101,6 +101,20 @@ nav ul li:nth-child(8) {
 	padding: 1px 10px;
 }
 
+.chest {
+	width: 40%;
+	height: 40%;
+	border: 15px solid #c7d770;
+	border-radius: 8px;
+	margin-top: 10%;
+}
+
+.doelgroep {
+	display: flex;
+	flex-flow: row;
+	margin-bottom: 8%;
+}
+
 header,
 .verloop {
 	text-align: center;
@@ -119,13 +133,21 @@ header img {
 	margin: 0 auto;
 }
 
+.kitchen {
+	width: 40%;
+	border: 15px solid #c3382f;
+	border-radius: 8px;
+	margin-bottom: 8%;
+	margin-top: 3%;
+}
+
 .carousel {
 	margin: 0 0 8% 20%;
 }
 
 .images_out {
 	width: 700px;
-	height: 290px;
+	height: 400px;
 	overflow: hidden;
 	border: 15px solid #c3382f;
 	margin: 25px;
