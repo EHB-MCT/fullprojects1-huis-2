@@ -64,6 +64,7 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	background-image: url(images/nav-bricks.png);
 }
 
 nav li {
@@ -76,17 +77,14 @@ nav li a {
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 }
 
-nav li a:hover {
-	color: #000;
-}
-
 nav img {
 	width: 50%;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 nav ul li:nth-child(9) a,
-nav ul li:nth-child(7) a {
+nav ul li:nth-child(7) a,
+nav li a:hover {
 	color: #000;
 }
 
@@ -121,6 +119,11 @@ header {
 
 .flex {
 	display: flex;
+	justify-content: space-between;
+}
+
+.map {
+	width: 60%;
 }
 
 .sponsors {
@@ -140,12 +143,36 @@ header {
 .location {
 	border: 15px solid #c3382f;
 	border-radius: 10px;
-	margin-left: 42vh;
+	height: 80%;
+	width: 100%;
 }
 
 @media screen and (max-width: 768px) {
 	.flex div {
+		width: 100%;
+	}
+	.flex {
 		flex-wrap: wrap;
 		flex: 1;
+	}
+	.location {
+		margin: 0;
+		height: 140%;
+		width: 80%;
+	}
+	.align-center {
+		margin-top: 25%;
+	}
+	.sponsors a {
+		width: 30%;
+	}
+	.sponsors {
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 468px) {
+	.align-center {
+		margin-top: 35%;
 	}
 }
