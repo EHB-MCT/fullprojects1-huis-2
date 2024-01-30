@@ -36,10 +36,9 @@
 						</h3>
 					</div>
 				</div>
-				<!-- Carré spécifique pour la photo à 360 degrés -->
+
 				<div class="video-container">
 					<a-scene embedded>
-						<!-- Intégration de la photo à 360 degrés locale -->
 						<a-sky
 							rotation="0 -90 0"
 							src="#local360image"
@@ -47,7 +46,6 @@
 							mipmapping="true"
 						></a-sky>
 
-						<!-- Ajoutez une sphère pour l'interaction utilisateur -->
 						<a-sphere
 							position="0 0 0"
 							radius="1"
@@ -65,7 +63,6 @@
 							visible="false"
 						></a-plane>
 
-						<!-- Ajoutez la photo à 360 degrés locale en tant que ressource -->
 						<a-assets>
 							<img
 								id="local360image"
