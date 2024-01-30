@@ -34,6 +34,7 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	background-image: url(images/nav-bricks.png);
 }
 
 nav li {
@@ -44,11 +45,12 @@ nav li {
 nav li a {
 	color: #c3382f;
 	text-decoration: none;
+	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 }
 
 nav img {
 	width: 50%;
-	margin-top: 30px;
+	margin-top: 15px;
 }
 
 nav ul li:last-child a,
@@ -96,13 +98,10 @@ a {
 	color: #c3382f;
 }
 
-nav li a {
-	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
-}
-
 /*BODY*/
 .roof {
 	width: 100%;
+	margin-top: 1.5%;
 }
 
 .steun-ons {

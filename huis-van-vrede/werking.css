@@ -60,6 +60,7 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	background-image: url(images/nav-bricks.png);
 }
 
 nav li {
@@ -82,7 +83,7 @@ nav ul li:nth-child(7) a {
 
 nav img {
 	width: 50%;
-	margin-top: 30px;
+	margin-top: 15px;
 }
 
 nav ul li:nth-child(9),
@@ -122,6 +123,7 @@ header,
 
 header img {
 	width: 100%;
+	margin-top: 1.5%;
 }
 
 .verloop h2 {
