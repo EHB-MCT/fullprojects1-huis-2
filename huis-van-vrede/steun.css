@@ -76,7 +76,6 @@ nav ul li:nth-child(8) {
 }
 
 /* TYPOGRAPHY */
-
 h1 {
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	font-size: 100pt;
@@ -120,6 +119,7 @@ nav li a {
 	width: 50%;
 	height: 50%;
 	margin-top: 8%;
+	margin-left: 5%;
 }
 
 .bottom-streep {
@@ -136,18 +136,24 @@ nav li a {
 	width: 80%;
 }
 
-/*CAROESEL*/
-/*❌*/
-
 /*RESPONSIVE*/
 @media screen and (max-width: 376px) {
 	p {
 		font-size: 10pt;
 	}
 
+	.steun-ons {
+		display: flex;
+		flex-flow: column;
+	}
+
 	.doek {
-		width: 80%;
-		margin-left: 10%;
+		margin-left: 25%;
+	}
+
+	.steun-ons-text {
+		text-align: center;
+		width: 100%;
 	}
 	/*HAMBURGER MENU*/
 	/*❌*/
