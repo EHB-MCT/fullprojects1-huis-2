@@ -31,16 +31,6 @@ html {
 	margin: 0 auto;
 }
 
-h1 {
-	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
-	font-size: 54pt;
-}
-
-h2 {
-	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
-	font-size: 36pt;
-}
-
 h3 {
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	font-size: 20pt;
@@ -52,10 +42,6 @@ p {
 	margin: 0% 0 11% 0;
 }
 
-nav a {
-	text-decoration: none;
-}
-
 a {
 	color: #c3382f;
 }
@@ -64,19 +50,28 @@ a {
 
 nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	background-image: url(images/nav-bricks.png);
+}
+
+nav div {
+	display: flex;
 }
 
 nav li {
-	display: inline;
-	margin: 0 20px;
+	display: inline-block;
+	margin: 1.5% 30px;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
 }
 
 nav li a {
 	color: #c3382f;
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
+	text-decoration: none;
 }
 
 nav img {
@@ -84,16 +79,23 @@ nav img {
 	margin: 10px 0px;
 }
 
-nav ul li:nth-child(9) a,
-nav ul li:nth-child(7) a,
+.nl-fr a,
 nav li a:hover {
 	color: #000;
 }
 
-nav ul li:nth-child(9),
-nav ul li:nth-child(7),
-nav ul li:nth-child(8) {
+.nl-fr li {
 	margin: 0px;
+}
+
+.nl-fr {
+	padding: 0;
+	margin-top: 5%;
+	display: inline;
+}
+
+.wrapper-navigation {
+	background-image: url(images/nav-bricks.png);
 }
 
 .active {
