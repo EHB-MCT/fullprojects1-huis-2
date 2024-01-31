@@ -238,7 +238,7 @@ a {
 }
 
 /*RESPONSIVE*/
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 767px) {
 	h1 {
 		font-size: 30pt;
 	}
@@ -252,50 +252,53 @@ a {
 		margin-bottom: 110%;
 	}
 
-	.peace {
-		margin-top: -60%;
+	.vrede {
+		margin-top: -25%;
 		width: 200%;
 		text-align: center;
 	}
 
 	.house {
+		margin-right: 50%;
 		width: 100%;
 		height: 55%;
-		margin: 0% 50% 0% -50%;
+		margin-left: -50%;
 	}
 
 	.intro-text {
 		margin: -5% 0% 0% 50%;
 	}
 
-	.peace-stripe {
+	.vrede-streep {
 		width: 185%;
 		height: 3%;
-		margin: 80% 0% 0% 8%;
+		margin-top: 80%;
+		margin-left: 8%;
 	}
 
-	.peace-stripe2 {
+	.vrede-streep2 {
 		width: 70%;
 		height: 3%;
 		position: relative;
-		margin: 18% 0% 0% 65%;
+		margin-top: 18%;
+		margin-left: 65%;
 	}
 
 	h2 {
 		font-size: 20pt;
 	}
 
-	.house-peace {
+	.huis-vrede {
 		width: 50%;
 		height: 50%;
 		margin: 0% 0% -2% 25%;
 	}
 
-	.target-group {
+	.doelgroep {
 		flex-flow: column;
 	}
 
-	.target-group-text {
+	.doelgroep-text {
 		text-align: center;
 		margin: 0% 0% 20% 4%;
 	}
@@ -305,11 +308,11 @@ a {
 		margin-bottom: 10%;
 	}
 
-	.history {
+	.historiek {
 		flex-flow: column;
 	}
 
-	.history-text {
+	.historiek-text {
 		text-align: center;
 		width: 90%;
 		margin: -10% 0% 0% 5%;
@@ -319,18 +322,19 @@ a {
 		font-size: 10pt;
 	}
 
-	.bottom-stripe {
+	.bottom-streep {
 		margin-top: 10%;
 	}
 
 	.carousel {
-		margin: 3% 0% 0% -10%;
+		margin-left: -10%;
+		margin-top: 3%;
 	}
 
 	.images_out_1 {
 		width: 90%;
 	}
 
-	/*HAMBURGER MENU*/
-	/*❌*/
+	/* HAMBURGER MENU */
+	/* ❌ */
 }
