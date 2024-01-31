@@ -243,15 +243,12 @@ a {
 		margin-left: -35%;
 		margin-bottom: 110%;
 	}
-<<<<<<< HEAD
 
 	.menu-icon {
 		display: block;
 		cursor: pointer;
 		/* Ajoutez ici votre icône de menu hamburger */
 	}
-=======
->>>>>>> ba9165629e64c1071ddfcb76ea4f0c76c2b2f76f
 
 	nav ul {
 		flex-direction: column;

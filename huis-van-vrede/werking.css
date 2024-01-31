@@ -263,11 +263,7 @@ header img {
 
 	.chest,
 	.kitchen {
-<<<<<<< HEAD
 		width: 90%; /* Modification de la largeur à 100% */
-=======
-		width: 100%;
->>>>>>> ba9165629e64c1071ddfcb76ea4f0c76c2b2f76f
 		height: auto;
 		margin: 5% 0;
 	}
