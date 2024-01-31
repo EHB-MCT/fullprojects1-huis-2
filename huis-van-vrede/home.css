@@ -230,7 +230,7 @@ a {
 }
 
 /*RESPONSIVE*/
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 767px) {
 	h1 {
 		font-size: 30pt;
 	}
@@ -319,6 +319,6 @@ a {
 		width: 90%;
 	}
 
-	/*HAMBURGER MENU*/
-	/*❌*/
+	/* HAMBURGER MENU */
+	/* ❌ */
 }
