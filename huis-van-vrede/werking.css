@@ -46,7 +46,7 @@ h3 {
 
 p {
 	font-family: "helvetica_neue_lt_std65Md", sans-serif;
-	font-size: 18pt;
+	font-size: 15pt;
 }
 
 a {
@@ -250,7 +250,7 @@ header img {
 	}
 
 	p {
-		font-size: 14pt;
+		font-size: 10pt;
 	}
 
 	nav ul {
@@ -290,14 +290,14 @@ header img {
 		margin: 5% 0;
 	}
 
-	.carousel {
-		margin: 0 5% 8% 5%;
+	.out2 {
+		border: 5px solid #c7d770;
 	}
 
 	.images_out {
 		width: 100%;
-		height: auto;
-		margin: 5% 0;
+		height: 40vh;
+		margin-left: -7%;
 	}
 
 	.target,
@@ -307,6 +307,35 @@ header img {
 	.target div {
 		width: 350px;
 		max-width: none;
+	}
+
+	.target-group-text {
+		text-align: center;
+		margin: auto;
+		width: 100%;
+	}
+
+	.video-container {
+		margin-bottom: 15%;
+		border: 5px solid #c3382f;
+		height: 40vh;
+	}
+
+	.chest {
+		width: 50%;
+		border: 5px solid #c7d770;
+		margin: auto;
+		margin-bottom: 15%;
+	}
+
+	.kitchen {
+		width: 50%;
+		border: 5px solid #c3382f;
+		margin-bottom: 15%;
+	}
+
+	.goal {
+		text-align: center;
 	}
 
 	.bottom-stripe {
