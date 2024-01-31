@@ -34,11 +34,13 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	/*padding: 20px 0 20px 0;*/
 	background-image: url(images/nav-bricks.png);
 }
 
 nav li {
 	display: inline;
+	background-color: yellow;
 	margin: 0 20px;
 }
 
@@ -49,6 +51,7 @@ nav li a {
 }
 
 nav img {
+	background-color: purple;
 	width: 50%;
 	margin-top: 15px;
 }
@@ -136,7 +139,7 @@ a {
 }
 
 /*RESPONSIVE*/
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 480px) {
 	p {
 		font-size: 10pt;
 	}
@@ -154,6 +157,9 @@ a {
 		text-align: center;
 		width: 100%;
 	}
+
 	/*HAMBURGER MENU*/
-	/*❌*/
+	.nav {
+		display: hidden;
+	}
 }
