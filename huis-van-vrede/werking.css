@@ -216,3 +216,84 @@ header img {
 .sponsors img {
 	width: 80%;
 }
+/* RESPONSIVE */
+/* RESPONSIVE */
+@media screen and (max-width: 767px) {
+	h1 {
+		font-size: 30pt;
+	}
+
+	h2 {
+		font-size: 24pt;
+	}
+
+	p {
+		font-size: 14pt;
+	}
+
+	nav {
+		flex-direction: column;
+		text-align: center;
+	}
+	nav li {
+		margin: 0 10px; /* Ajustez la marge autour des éléments de la barre de navigation en mode responsive */
+	}
+
+	nav img {
+		width: 70%;
+		margin-top: 15px;
+	}
+
+	nav li {
+		margin: 10px 0;
+	}
+
+	.active,
+	.operation-btn {
+		padding: 5px;
+	}
+
+	.wrapper {
+		width: 90%;
+		margin: 0 auto; /* Ajout de cette ligne pour centrer le contenu */
+	}
+
+	header img {
+		width: 100%;
+		margin-top: 5%;
+	}
+
+	.chest,
+	.kitchen {
+		width: 100%; /* Modification de la largeur à 100% */
+		height: auto;
+		margin: 5% 0;
+	}
+
+	.carousel {
+		margin: 0 5% 8% 5%; /* Ajustement des marges */
+	}
+
+	.images_out {
+		width: 100%;
+		height: auto;
+		margin: 5% 0;
+	}
+
+	.target,
+	.target-group {
+		flex-direction: column;
+	}
+	.target div {
+		width: 350px; /* Modification de la largeur à 100% */
+		max-width: none; /* Aucune largeur maximale */
+	}
+
+	.bottom-stripe {
+		margin-bottom: 5%;
+	}
+
+	.sponsors img {
+		width: 70%;
+	}
+}
