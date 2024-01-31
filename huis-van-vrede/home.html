@@ -36,6 +36,9 @@
 						</h3>
 					</div>
 				</div>
+				<div class="doelgroep-text">
+					<h2>Welkom in Huis van Vrede...</h2>
+				</div>
 				<div class="video-container">
 					<a-scene embedded>
 						<a-sky
@@ -134,11 +137,9 @@
 			</div>
 		</div>
 		<script>
-			// Ajoutez un gestionnaire d'événements pour l'interaction utilisateur
 			document
 				.getElementById("interactionSphere")
 				.addEventListener("click", function () {
-					// Activez les contrôles du regard lorsqu'on clique sur la sphère
 					document
 						.querySelector("a-sky")
 						.setAttribute("look-controls-enabled", "true");
