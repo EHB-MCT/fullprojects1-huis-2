@@ -95,6 +95,7 @@ nav ul li:nth-child(8) {
 	padding: 1px 10px;
 }
 
+/*PUBLICATIES*/
 /*historiek*/
 .history-text {
 	width: 80%;
@@ -124,7 +125,7 @@ header {
 .jobs {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 .jobs div {
@@ -150,6 +151,10 @@ header {
 
 .a-first {
 	margin-top: 25%;
+}
+
+.letter {
+	margin-top: 15%;
 }
 
 /* "solliciteer nu" link */
@@ -253,12 +258,17 @@ input {
 	.puerto {
 		width: 100%;
 		margin: 0;
+		margin-left: -5%;
+		margin-bottom: 10%;
 	}
 	.history-text {
 		width: 100%;
 	}
 	h2 {
-		font-size: 28pt;
+		font-size: 24pt;
+	}
+	p {
+		font-size: 14pt;
 	}
 }
 
