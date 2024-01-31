@@ -231,12 +231,6 @@ header img {
 		font-size: 14pt;
 	}
 
-	.menu-icon {
-		display: block;
-		cursor: pointer;
-		/* Ajoutez ici votre icône de menu hamburger */
-	}
-
 	nav ul {
 		flex-direction: column;
 		left: 0;
@@ -259,7 +253,7 @@ header img {
 
 	.wrapper {
 		width: 90%;
-		margin: 0 auto; /* Ajout de cette ligne pour centrer le contenu */
+		margin: 0 auto;
 	}
 
 	header img {
@@ -269,13 +263,13 @@ header img {
 
 	.chest,
 	.kitchen {
-		width: 100%; /* Modification de la largeur à 100% */
+		width: 100%;
 		height: auto;
 		margin: 5% 0;
 	}
 
 	.carousel {
-		margin: 0 5% 8% 5%; /* Ajustement des marges */
+		margin: 0 5% 8% 5%;
 	}
 
 	.images_out {
@@ -289,8 +283,8 @@ header img {
 		flex-direction: column;
 	}
 	.target div {
-		width: 350px; /* Modification de la largeur à 100% */
-		max-width: none; /* Aucune largeur maximale */
+		width: 350px;
+		max-width: none;
 	}
 
 	.bottom-stripe {
