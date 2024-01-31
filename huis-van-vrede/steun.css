@@ -170,11 +170,19 @@ a {
 	width: 80%;
 }
 
+.hamburger {
+	display: none;
+}
+
 /*RESPONSIVE*/
 
 @media screen and (max-width: 1113px) {
-	div.hamburger {
+	#hider {
 		display: none;
+	}
+
+	.hamburger {
+		display: flex;
 	}
 }
 
