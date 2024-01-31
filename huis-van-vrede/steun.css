@@ -35,10 +35,16 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	background-image: url(images/nav-bricks.png);
+	margin-bottom: 3%;
+}
+
+nav ul {
+	margin: 0 40px;
 }
 
 nav li {
 	display: inline;
+	background-color: yellow;
 	margin: 0 20px;
 }
 
@@ -49,8 +55,9 @@ nav li a {
 }
 
 nav img {
+	background-color: purple;
 	width: 50%;
-	margin: 10px 0px;
+	margin: 20px 40px;
 }
 
 nav ul li:last-child a,
@@ -102,6 +109,10 @@ a {
 	margin-top: 1.5%;
 }
 
+.support-title {
+	text-align: center;
+}
+
 .support-us {
 	display: flex;
 	flex-flow: row-reverse;
@@ -109,13 +120,13 @@ a {
 
 .support-us-text {
 	width: 50%;
-	margin: 6% 0 12% 0;
+	margin: 0 0 5% 0;
 }
 
 .banner {
 	width: 50%;
 	height: 50%;
-	margin-top: 8%;
+	margin-top: 2%;
 	margin-left: 5%;
 }
 
@@ -134,7 +145,7 @@ a {
 }
 
 /*RESPONSIVE*/
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 480px) {
 	p {
 		font-size: 14pt;
 	}
@@ -153,12 +164,8 @@ a {
 		text-align: center;
 		width: 100%;
 	}
-	.sponsors a {
-		width: 30%;
-	}
-	.sponsors {
-		flex-wrap: wrap;
-	}
 	/*HAMBURGER MENU*/
-	/*❌*/
+	.nav {
+		display: hidden;
+	}
 }

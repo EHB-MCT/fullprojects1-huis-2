@@ -123,14 +123,14 @@ a {
 .peace {
 	width: 200%;
 	position: relative;
-	margin-top: -25%;
+	margin-top: -24%;
 }
 
 .peace-stripe {
 	width: 185%;
 	height: 7%;
 	position: relative;
-	margin-top: 45%;
+	margin-top: 35%;
 }
 
 .target-group {
@@ -154,6 +154,11 @@ a {
 
 .history-text {
 	margin-left: 5%;
+	margin-bottom: 15%;
+}
+
+.para-btn {
+	margin-bottom: 7%;
 }
 
 .more {
