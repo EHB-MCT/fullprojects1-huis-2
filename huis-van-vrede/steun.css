@@ -35,11 +35,10 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	background-image: url(images/nav-bricks.png);
-	margin-bottom: 3%;
 }
 
 nav ul {
-	margin: 0 40px;
+	margin-right: 40px;
 }
 
 nav li {
@@ -57,7 +56,7 @@ nav li a {
 nav img {
 	background-color: purple;
 	width: 50%;
-	margin: 20px 40px;
+	margin: 10px 40px;
 }
 
 nav ul li:last-child a,
