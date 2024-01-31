@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
 		<title>Maison de la Paix - Accueil</title>
 		<link rel="icon" type="image/png" href="images/favicon.png" />
 		<link rel="stylesheet" href="homeFR.css" />
@@ -45,44 +44,6 @@
 							conseil résidentiel pour les sans-abri à Bruxelles.
 						</h3>
 					</div>
-				</div>
-				<div class="target-group-text">
-					<h2>Bienvenue à la Maison de la Paix...</h2>
-				</div>
-				<div class="video-container">
-					<a-scene embedded>
-						<a-sky
-							rotation="0 -90 0"
-							src="#local360image"
-							look-controls-enabled="false"
-							mipmapping="true"
-						></a-sky>
-
-						<a-sphere
-							position="0 0 0"
-							radius="1"
-							color="#EF2D5E"
-							id="interactionSphere"
-							visible="false"
-						></a-sphere>
-
-						<a-plane
-							rotation="-90 0 0"
-							width="30"
-							height="30"
-							color="#7BC8A4"
-							visible="false"
-						></a-plane>
-
-						<a-assets>
-							<img
-								id="local360image"
-								src="images/Huis_van_vrede_zaal.png"
-								crossorigin="anonymous"
-								alt="zaal Huis van Vrede"
-							/>
-						</a-assets>
-					</a-scene>
 				</div>
 				<div class="target-group">
 					<img
@@ -146,14 +107,5 @@
 				</footer>
 			</div>
 		</div>
-		<script>
-			document
-				.getElementById("interactionSphere")
-				.addEventListener("click", function () {
-					document
-						.querySelector("a-sky")
-						.setAttribute("look-controls-enabled", "true");
-				});
-		</script>
 	</body>
 </html>
