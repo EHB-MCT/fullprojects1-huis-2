@@ -231,12 +231,16 @@ header img {
 		font-size: 14pt;
 	}
 
-	nav {
-		flex-direction: column;
-		text-align: center;
+	.menu-icon {
+		display: block;
+		cursor: pointer;
+		/* Ajoutez ici votre icône de menu hamburger */
 	}
-	nav li {
-		margin: 0 10px; /* Ajustez la marge autour des éléments de la barre de navigation en mode responsive */
+
+	nav ul {
+		flex-direction: column;
+		left: 0;
+		width: 100%;
 	}
 
 	nav img {
