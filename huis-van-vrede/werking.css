@@ -117,7 +117,6 @@ nav ul li:nth-child(8) {
 
 .virtual {
 	text-align: center;
-	margin-top: -5%;
 }
 
 .chest {
@@ -131,7 +130,12 @@ nav ul li:nth-child(8) {
 .target-group {
 	display: flex;
 	flex-flow: row;
+	justify-content: space-around;
 	margin-bottom: 8%;
+}
+
+.target-group-text {
+	width: 50%;
 }
 
 header,

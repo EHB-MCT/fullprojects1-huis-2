@@ -102,7 +102,6 @@ nav ul li:nth-child(8) {
 	width: 80%;
 	text-align: center;
 	margin: auto;
-	margin-top: -7%;
 }
 
 .puerto {
@@ -112,6 +111,7 @@ nav ul li:nth-child(8) {
 	margin: 0% 0% 5% 35%;
 }
 
+/*VACATURES*/
 /*jobs & vrijwilligerswerk*/
 
 header {
@@ -138,6 +138,7 @@ header {
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	border-radius: 15px;
 	background-color: #c7d770;
+	padding: 0 10px 0 10px;
 	display: inline-block;
 	margin-bottom: 10px;
 }

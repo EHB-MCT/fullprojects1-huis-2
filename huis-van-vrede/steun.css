@@ -103,6 +103,10 @@ a {
 	margin-top: 1.5%;
 }
 
+.support-title {
+	text-align: center;
+}
+
 .support-us {
 	display: flex;
 	flex-flow: row-reverse;
@@ -110,13 +114,13 @@ a {
 
 .support-us-text {
 	width: 50%;
-	margin: 6% 0 10% 0;
+	margin: 0 0 5% 0;
 }
 
 .banner {
 	width: 50%;
 	height: 50%;
-	margin-top: 8%;
+	margin-top: 2%;
 	margin-left: 5%;
 }
 
