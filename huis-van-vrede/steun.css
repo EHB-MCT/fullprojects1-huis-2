@@ -171,6 +171,13 @@ a {
 }
 
 /*RESPONSIVE*/
+
+@media screen and (max-width: 1113px) {
+	div.hamburger {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 480px) {
 	p {
 		font-size: 14pt;
@@ -191,7 +198,4 @@ a {
 		width: 100%;
 	}
 	/*HAMBURGER MENU*/
-	.hamburger {
-		display: hidden;
-	}
 }
