@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
 		<link rel="stylesheet" href="werking.css" />
-
 		<title>Huis van Vrede - Werking</title>
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<meta
+			name="description"
+			content="Ontdek de doelgroep, werkwijze en doelstellingen van Huis van Vrede vzw. Leer hoe we ondersteuning bieden aan thuislozen door middel van persoonlijke hulp op maat. Ontdek onze diverse activiteiten, huisbezoeken, en het bevorderen van gemeenschapsbeleving. Samen bouwen we aan een stabiele woonomgeving."
+		/>
 	</head>
 	<body>
 		<nav>
 			<a href="home.html"> <img src="images/logo.png" alt="logo" /></a>
 			<ul>
 				<li><a href="home.html">HOME</a></li>
-				<li class="active werking-btn"><a href="#">WERKING</a></li>
+				<li class="active operation-btn"><a href="#">WERKING</a></li>
 				<li><a href="publicaties.html">PUBLICATIES</a></li>
 				<li><a href="steun.html">STEUN ONS</a></li>
 				<li><a href="vacatures.html">VACATURES</a></li>
@@ -28,8 +33,47 @@
 				<img src="images/house-roof.png" alt="roof" />
 			</header>
 
-			<div class="doelgroep">
-				<div class="doelgroep-text">
+			<div class="virtual">
+				<h2>Welkom in het Huis van Vrede...</h2>
+			</div>
+			<div class="video-container">
+				<a-scene embedded>
+					<a-sky
+						rotation="0 -90 0"
+						src="#local360image"
+						look-controls-enabled="false"
+						mipmapping="true"
+					></a-sky>
+
+					<a-sphere
+						position="0 0 0"
+						radius="1"
+						color="#EF2D5E"
+						id="interactionSphere"
+						visible="false"
+					></a-sphere>
+
+					<a-plane
+						rotation="-90 0 0"
+						width="30"
+						height="30"
+						color="#7BC8A4"
+						visible="false"
+					></a-plane>
+
+					<a-assets>
+						<img
+							id="local360image"
+							src="images/Huis_van_vrede_zaal.png"
+							crossorigin="anonymous"
+							alt="zaal Huis van Vrede"
+						/>
+					</a-assets>
+				</a-scene>
+			</div>
+
+			<div class="target-group">
+				<div class="target-group-text">
 					<h2>Doelgroep</h2>
 					<p>
 						De dienst richt zich tot de thuisloze zoals gedefinieerd door J.
@@ -54,9 +98,9 @@
 						opnieuw willen wonen.
 					</p>
 				</div>
-				<img src="images/kast vrede.png" class="chest" alt="" />
+				<img src="images/kast vrede.jpg" class="chest" alt="" />
 			</div>
-			<div class="verloop">
+			<div class="course">
 				<h2>Hoe verloopt het</h2>
 				<p>
 					Huis van Vrede vzw biedt persoonlijke hulp op maat, waaronder
@@ -68,10 +112,10 @@
 					zoals wekelijkse maaltijden, feesten en jaarlijkse vakanties voor onze
 					cliënten.
 				</p>
-				<img src="images/keuken vrede.png" class="kitchen" alt="" />
+				<img src="images/keuken vrede.jpg" class="kitchen" alt="" />
 			</div>
 
-			<div class="doel">
+			<div class="target">
 				<div class="carousel_2">
 					<div class="images_out out2">
 						<div class="images_in">
@@ -111,7 +155,7 @@
 				</div>
 			</div>
 			<footer>
-				<img src="images/house-bottom.png" class="bottom-streep" alt="" />
+				<img src="images/house-bottom.png" class="bottom-stripe" alt="" />
 				<div class="sponsors">
 					<a href="https://caritas.be/nl/homepage/"
 						><img src="Images/caritas-logo.png" alt=""
@@ -131,5 +175,14 @@
 				</div>
 			</footer>
 		</div>
+		<script>
+			document
+				.getElementById("interactionSphere")
+				.addEventListener("click", function () {
+					document
+						.querySelector("a-sky")
+						.setAttribute("look-controls-enabled", "true");
+				});
+		</script>
 	</body>
 </html>

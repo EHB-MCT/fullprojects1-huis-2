@@ -36,6 +36,7 @@ nav {
 	align-items: center;
 	/*padding: 20px 0 20px 0;*/
 	background-image: url(images/nav-bricks.png);
+	margin-bottom: 3%;
 }
 
 nav li {
@@ -53,7 +54,7 @@ nav li a {
 nav img {
 	background-color: purple;
 	width: 50%;
-	margin-top: 15px;
+	margin: 10px 0px;
 }
 
 nav ul li:last-child a,
@@ -74,10 +75,8 @@ nav ul li:nth-child(8) {
 	border-radius: 30px;
 }
 
-.steun-ons-button {
+.support-us-button {
 	padding: 1px 10px;
-	background-color: #c7d770;
-	border-radius: 30px;
 }
 
 /* TYPOGRAPHY */
@@ -107,24 +106,28 @@ a {
 	margin-top: 1.5%;
 }
 
-.steun-ons {
+.support-title {
+	text-align: center;
+}
+
+.support-us {
 	display: flex;
 	flex-flow: row-reverse;
 }
 
-.steun-ons-text {
+.support-us-text {
 	width: 50%;
-	margin: 10% 0 12% 0;
+	margin: 0 0 5% 0;
 }
 
-.doek {
+.banner {
 	width: 50%;
 	height: 50%;
-	margin-top: 8%;
+	margin-top: 2%;
 	margin-left: 5%;
 }
 
-.bottom-streep {
+.bottom-stripe {
 	width: 100%;
 	margin-bottom: 2%;
 }
@@ -141,23 +144,23 @@ a {
 /*RESPONSIVE*/
 @media screen and (max-width: 480px) {
 	p {
-		font-size: 10pt;
+		font-size: 14pt;
 	}
 
-	.steun-ons {
+	.support-us {
 		display: flex;
 		flex-flow: column;
 	}
 
-	.doek {
-		margin-left: 25%;
+	.banner {
+		margin-left: 10%;
+		width: 80%;
 	}
 
-	.steun-ons-text {
+	.support-us-text {
 		text-align: center;
 		width: 100%;
 	}
-
 	/*HAMBURGER MENU*/
 	.nav {
 		display: hidden;

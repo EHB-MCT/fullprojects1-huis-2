@@ -56,6 +56,7 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	background-image: url(images/nav-bricks.png);
+	margin-bottom: 3%;
 }
 
 nav li {
@@ -70,7 +71,7 @@ nav li a {
 
 nav img {
 	width: 50%;
-	margin-top: 15px;
+	margin: 10px 0px;
 }
 
 nav ul li:nth-child(9) a,
@@ -95,12 +96,12 @@ nav ul li:nth-child(8) {
 	padding: 1px 10px;
 }
 
+/*PUBLICATIES*/
 /*historiek*/
 .history-text {
 	width: 80%;
 	text-align: center;
 	margin: auto;
-	margin-top: -7%;
 }
 
 .puerto {
@@ -110,6 +111,7 @@ nav ul li:nth-child(8) {
 	margin: 0% 0% 5% 35%;
 }
 
+/*VACATURES*/
 /*jobs & vrijwilligerswerk*/
 
 header {
@@ -124,7 +126,7 @@ header {
 .jobs {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 .jobs div {
@@ -136,6 +138,7 @@ header {
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	border-radius: 15px;
 	background-color: #c7d770;
+	padding: 0 10px 0 10px;
 	display: inline-block;
 	margin-bottom: 10px;
 }
@@ -150,6 +153,10 @@ header {
 
 .a-first {
 	margin-top: 25%;
+}
+
+.letter {
+	margin-top: 15%;
 }
 
 /* "solliciteer nu" link */
@@ -253,9 +260,17 @@ input {
 	.puerto {
 		width: 100%;
 		margin: 0;
+		margin-left: -5%;
+		margin-bottom: 10%;
 	}
 	.history-text {
 		width: 100%;
+	}
+	h2 {
+		font-size: 24pt;
+	}
+	p {
+		font-size: 14pt;
 	}
 }
 

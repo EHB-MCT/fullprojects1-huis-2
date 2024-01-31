@@ -44,10 +44,12 @@ h2 {
 h3 {
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 	font-size: 20pt;
+	margin-bottom: 0;
 }
 
 p {
-	font-size: 18pt;
+	font-size: 14pt;
+	margin: 0% 0 11% 0;
 }
 
 nav a {
@@ -65,6 +67,7 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	background-image: url(images/nav-bricks.png);
+	margin-bottom: 3%;
 }
 
 nav li {
@@ -79,7 +82,7 @@ nav li a {
 
 nav img {
 	width: 50%;
-	margin-top: 15px;
+	margin: 10px 0px;
 }
 
 nav ul li:nth-child(9) a,
@@ -144,11 +147,20 @@ header {
 .location {
 	border: 15px solid #c3382f;
 	border-radius: 10px;
-	height: 80%;
-	width: 100%;
+	height: 90%;
+	width: 95%;
+	margin-top: 2%;
 }
 
 @media screen and (max-width: 768px) {
+	p {
+		font-size: 14pt;
+	}
+
+	h3 {
+		font-size: 20pt;
+	}
+
 	.flex div {
 		width: 100%;
 	}
