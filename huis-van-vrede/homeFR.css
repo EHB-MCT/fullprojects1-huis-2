@@ -340,6 +340,12 @@ a {
 	.images_out_1 {
 		width: 90%;
 	}
+	.sponsors a {
+		width: 30%;
+	}
+	.sponsors {
+		flex-wrap: wrap;
+	}
 
 	/* HAMBURGER MENU */
 	/* ❌ */

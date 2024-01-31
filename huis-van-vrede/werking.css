@@ -291,7 +291,10 @@ header img {
 		margin-bottom: 5%;
 	}
 
-	.sponsors img {
-		width: 70%;
+	.sponsors a {
+		width: 30%;
+	}
+	.sponsors {
+		flex-wrap: wrap;
 	}
 }

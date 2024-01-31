@@ -153,6 +153,12 @@ a {
 		text-align: center;
 		width: 100%;
 	}
+	.sponsors a {
+		width: 30%;
+	}
+	.sponsors {
+		flex-wrap: wrap;
+	}
 	/*HAMBURGER MENU*/
 	/*❌*/
 }
