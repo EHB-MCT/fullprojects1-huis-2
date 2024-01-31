@@ -40,6 +40,15 @@ nav div {
 	display: flex;
 }
 
+nav div:first-child {
+	flex: 1;
+}
+
+nav div:last-child {
+	flex: 4;
+	justify-content: right;
+}
+
 nav li {
 	display: inline-block;
 	margin: 1.5% 30px;
