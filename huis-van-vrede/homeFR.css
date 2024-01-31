@@ -121,13 +121,13 @@ a {
 	margin-bottom: 10%;
 }
 
-.vrede {
+.peace {
 	width: 300%;
 	position: relative;
 	margin-top: -24%;
 }
 
-.vrede-streep {
+.peace-stripe {
 	width: 215%;
 	height: 7%;
 	position: relative;
@@ -135,7 +135,7 @@ a {
 }
 
 @media screen and (min-width: 376px) {
-	.vrede-streep2 {
+	.peace-stripe2 {
 		display: none;
 	}
 }
@@ -150,21 +150,21 @@ a {
 	margin-right: 5%;
 }
 
-.huis-vrede {
+.house-peace {
 	margin-left: 5%;
 	margin-bottom: 5%;
 }
 
-.historiek {
+.history {
 	display: flex;
 	flex-flow: row-reverse;
 }
 
-.historiek-text {
+.history-text {
 	margin-left: 5%;
 }
 
-.lees-meer {
+.more {
 	color: #000;
 	background-color: #c7d770;
 	padding: 10px 15px;
@@ -173,7 +173,7 @@ a {
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
 }
 
-.bottom-streep {
+.bottom-stripe {
 	width: 100%;
 	margin-bottom: 2%;
 }
@@ -252,7 +252,7 @@ a {
 		margin-bottom: 110%;
 	}
 
-	.vrede {
+	.peace {
 		margin-top: -60%;
 		width: 200%;
 		text-align: center;
@@ -268,13 +268,13 @@ a {
 		margin: -5% 0% 0% 50%;
 	}
 
-	.vrede-streep {
+	.peace-stripe {
 		width: 185%;
 		height: 3%;
 		margin: 80% 0% 0% 8%;
 	}
 
-	.vrede-streep2 {
+	.peace-stripe2 {
 		width: 70%;
 		height: 3%;
 		position: relative;
@@ -285,17 +285,17 @@ a {
 		font-size: 20pt;
 	}
 
-	.huis-vrede {
+	.house-peace {
 		width: 50%;
 		height: 50%;
 		margin: 0% 0% -2% 25%;
 	}
 
-	.doelgroep {
+	.target-group {
 		flex-flow: column;
 	}
 
-	.doelgroep-text {
+	.target-group-text {
 		text-align: center;
 		margin: 0% 0% 20% 4%;
 	}
@@ -305,11 +305,11 @@ a {
 		margin-bottom: 10%;
 	}
 
-	.historiek {
+	.history {
 		flex-flow: column;
 	}
 
-	.historiek-text {
+	.history-text {
 		text-align: center;
 		width: 90%;
 		margin: -10% 0% 0% 5%;
@@ -319,7 +319,7 @@ a {
 		font-size: 10pt;
 	}
 
-	.bottom-streep {
+	.bottom-stripe {
 		margin-top: 10%;
 	}
 
