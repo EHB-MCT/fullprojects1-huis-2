@@ -92,7 +92,7 @@ h2 {
 
 p {
 	font-family: "helvetica_neue_lt_std65Md", sans-serif;
-	font-size: 18pt;
+	font-size: 15pt;
 }
 
 a {
@@ -144,7 +144,7 @@ a {
 /*RESPONSIVE*/
 @media screen and (max-width: 480px) {
 	p {
-		font-size: 14pt;
+		font-size: 10pt;
 	}
 
 	.support-us {
