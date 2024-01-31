@@ -71,7 +71,7 @@ nav ul li:nth-child(8) {
 	border-radius: 30px;
 }
 
-.steun-ons-button {
+.support-us-button {
 	padding: 1px 10px;
 }
 
@@ -102,24 +102,24 @@ a {
 	margin-top: 1.5%;
 }
 
-.steun-ons {
+.support-us {
 	display: flex;
 	flex-flow: row-reverse;
 }
 
-.steun-ons-text {
+.support-us-text {
 	width: 50%;
 	margin: 6% 0 12% 0;
 }
 
-.doek {
+.banner {
 	width: 50%;
 	height: 50%;
 	margin-top: 8%;
 	margin-left: 5%;
 }
 
-.bottom-streep {
+.bottom-stripe {
 	width: 100%;
 	margin-bottom: 2%;
 }
@@ -139,16 +139,16 @@ a {
 		font-size: 10pt;
 	}
 
-	.steun-ons {
+	.support-us {
 		display: flex;
 		flex-flow: column;
 	}
 
-	.doek {
+	.banner {
 		margin-left: 25%;
 	}
 
-	.steun-ons-text {
+	.support-us-text {
 		text-align: center;
 		width: 100%;
 	}

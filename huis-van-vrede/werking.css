@@ -98,7 +98,7 @@ nav ul li:nth-child(8) {
 	border-radius: 30px;
 }
 
-.werking-btn {
+.operation-btn {
 	padding: 1px 10px;
 }
 
@@ -110,14 +110,14 @@ nav ul li:nth-child(8) {
 	margin-top: 10%;
 }
 
-.doelgroep {
+.target-group {
 	display: flex;
 	flex-flow: row;
 	margin-bottom: 8%;
 }
 
 header,
-.verloop {
+.course {
 	text-align: center;
 }
 
@@ -126,11 +126,11 @@ header img {
 	margin-top: 1.5%;
 }
 
-.verloop h2 {
+.course h2 {
 	margin-top: -1.5%;
 }
 
-.verloop p {
+.course p {
 	width: 75%;
 	margin: 0 auto;
 }
@@ -182,17 +182,18 @@ header img {
 		transform: translateX(0px);
 	}
 }
-.doel {
+
+.target {
 	display: flex;
 	margin-bottom: 7%;
 }
 
-.doel .carousel_2 {
+.target .carousel_2 {
 	width: 50%;
 	margin-top: 2%;
 }
 
-.doel div {
+.target div {
 	width: 70%;
 }
 
@@ -202,7 +203,7 @@ header img {
 	border-color: #c7d770;
 }
 
-.bottom-streep {
+.bottom-stripe {
 	width: 100%;
 	margin-bottom: 2%;
 }
