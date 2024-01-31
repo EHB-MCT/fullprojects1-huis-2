@@ -32,43 +32,62 @@ html {
 /* NAVIGATION */
 nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	background-image: url(images/nav-bricks.png);
 }
 
-nav ul {
-	margin-right: 40px;
+nav div {
+	display: flex;
 }
 
 nav li {
-	display: inline;
-	background-color: yellow;
-	margin: 0 20px;
+	display: inline-block;
+	margin: 1.5% 30px;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
 }
 
 nav li a {
 	color: #c3382f;
-	text-decoration: none;
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
+	text-decoration: none;
 }
 
 nav img {
-	background-color: purple;
 	width: 50%;
-	margin: 10px 40px;
+	margin: 10px 0px;
 }
 
-nav ul li:last-child a,
-nav ul li:nth-child(7) a,
+.nl-fr a,
 nav li a:hover {
 	color: #000;
 }
 
-nav ul li:nth-child(9),
-nav ul li:nth-child(7),
-nav ul li:nth-child(8) {
+.nl-fr li {
 	margin: 0px;
+}
+
+.nl-fr {
+	padding: 0;
+	margin-top: 5%;
+	display: inline;
+}
+
+.wrapper-navigation {
+	background-image: url(images/nav-bricks.png);
+}
+
+.active {
+	padding: 10px;
+	background-color: #c7d770;
+	border-radius: 30px;
+}
+
+.nav {
+	padding: 1px 10px;
 }
 
 .active {
@@ -164,7 +183,7 @@ a {
 		width: 100%;
 	}
 	/*HAMBURGER MENU*/
-	.nav {
+	.hamburger {
 		display: hidden;
 	}
 }
