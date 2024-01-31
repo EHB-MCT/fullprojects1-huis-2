@@ -237,12 +237,13 @@ a {
 
 	h3 {
 		text-align: center;
-		font-size: 15pt;
+		font-size: 20pt;
 		margin-top: 80%;
 		width: 200%;
-		margin-left: -3%;
+		margin-left: -35%;
 		margin-bottom: 110%;
 	}
+
 	.menu-icon {
 		display: block;
 		cursor: pointer;
@@ -256,16 +257,18 @@ a {
 	}
 
 	.peace {
-		margin-top: -25%;
+		margin-top: -20%;
 		width: 200%;
 		text-align: center;
+		margin-left: -35%;
 	}
 
 	.house {
 		margin-right: 50%;
 		width: 100%;
 		height: 55%;
-		margin-left: -50%;
+		margin-left: -75%;
+		margin-top: 5%;
 	}
 
 	.intro-text {
@@ -273,14 +276,14 @@ a {
 	}
 
 	.peace-stripe {
-		width: 185%;
+		width: 130%;
 		height: 3%;
-		margin-top: 80%;
-		margin-left: 8%;
+		margin-top: 60%;
+		margin-left: 2%;
 	}
 
 	h2 {
-		font-size: 20pt;
+		font-size: 24pt;
 	}
 
 	.house-peace {
@@ -299,7 +302,7 @@ a {
 	}
 
 	p {
-		font-size: 10pt;
+		font-size: 14pt;
 		margin-bottom: 10%;
 	}
 

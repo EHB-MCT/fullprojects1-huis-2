@@ -149,6 +149,14 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+	p {
+		font-size: 14pt;
+	}
+
+	h3 {
+		font-size: 20pt;
+	}
+
 	.flex div {
 		width: 100%;
 	}

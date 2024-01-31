@@ -136,7 +136,7 @@ a {
 /*RESPONSIVE*/
 @media screen and (max-width: 376px) {
 	p {
-		font-size: 10pt;
+		font-size: 14pt;
 	}
 
 	.support-us {
@@ -145,7 +145,8 @@ a {
 	}
 
 	.banner {
-		margin-left: 25%;
+		margin-left: 10%;
+		width: 80%;
 	}
 
 	.support-us-text {
