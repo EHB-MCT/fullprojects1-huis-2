@@ -126,7 +126,7 @@ header {
 .jobs {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 5%;
+	margin-bottom: 3%;
 }
 
 .jobs div {
@@ -156,7 +156,32 @@ header {
 }
 
 .letter {
-	margin-top: 15%;
+	margin-top: 2%;
+	width: 500%;
+}
+
+.pins {
+	width: 200%;
+	border: 15px solid #c3382f;
+	border-radius: 8px;
+	margin-left: -120%;
+}
+
+.pins-text {
+	width: 200%;
+	margin-left: -115%;
+	text-align: center;
+}
+
+.pins-text a {
+	color: #c3382f;
+}
+
+.letter-pins {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: space-between;
 }
 
 /* "solliciteer nu" link */
