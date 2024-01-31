@@ -35,6 +35,7 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	background-image: url(images/nav-bricks.png);
+	margin-bottom: 3%;
 }
 
 nav li {
@@ -109,7 +110,7 @@ a {
 
 .support-us-text {
 	width: 50%;
-	margin: 6% 0 12% 0;
+	margin: 6% 0 10% 0;
 }
 
 .banner {

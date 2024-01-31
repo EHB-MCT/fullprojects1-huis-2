@@ -61,6 +61,7 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	background-image: url(images/nav-bricks.png);
+	margin-bottom: 3%;
 }
 
 nav li {
@@ -109,7 +110,7 @@ nav ul li:nth-child(8) {
 	margin: auto; /* Supprime la marge par défaut */
 	position: relative;
 	left: 5; /* Déplacement de 10% vers la gauche */
-	border: 4px solid #c3382f; /* Ajout d'une bordure noire de 2 pixels */
+	border: 15px solid #c3382f; /* Ajout d'une bordure noire de 2 pixels */
 	border-radius: 8px;
 	margin-bottom: 10%;
 }
