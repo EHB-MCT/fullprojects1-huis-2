@@ -228,6 +228,9 @@ a {
 	h1 {
 		font-size: 30pt;
 	}
+	h2 {
+		font-size: 24pt;
+	}
 
 	h3 {
 		text-align: center;
@@ -236,6 +239,9 @@ a {
 		width: 200%;
 		margin-left: -35%;
 		margin-bottom: 40%;
+	}
+	p {
+		font-size: 10pt;
 	}
 
 	.menu-icon {

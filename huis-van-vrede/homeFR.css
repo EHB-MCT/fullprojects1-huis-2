@@ -235,6 +235,9 @@ a {
 	h1 {
 		font-size: 30pt;
 	}
+	h2 {
+		font-size: 24pt;
+	}
 
 	h3 {
 		text-align: center;
@@ -243,6 +246,9 @@ a {
 		width: 200%;
 		margin-left: -3%;
 		margin-bottom: 110%;
+	}
+	p {
+		font-size: 10pt;
 	}
 	nav ul {
 		flex-direction: column;

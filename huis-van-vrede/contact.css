@@ -161,6 +161,9 @@ header {
 	h3 {
 		font-size: 20pt;
 	}
+	h2 {
+		font-size: 24pt;
+	}
 
 	.flex div {
 		width: 100%;

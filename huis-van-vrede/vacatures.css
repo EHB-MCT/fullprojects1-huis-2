@@ -315,9 +315,14 @@ input {
 	.history-text {
 		width: 100%;
 	}
+	h1 {
+		font-size: 30pt;
+	}
+
 	h2 {
 		font-size: 24pt;
 	}
+
 	p {
 		font-size: 10pt;
 	}
