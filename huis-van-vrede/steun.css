@@ -171,7 +171,11 @@ a {
 /*RESPONSIVE*/
 @media screen and (max-width: 768px) {
 	p {
-		font-size: 10pt;
+		font-size: 13pt;
+	}
+
+	h2 {
+		font-size: 30pt;
 	}
 
 	.support-us {
