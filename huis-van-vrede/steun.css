@@ -81,6 +81,7 @@ nav li a:hover {
 }
 
 .nl-fr {
+	padding: 0;
 	display: inline;
 }
 
@@ -177,6 +178,19 @@ a {
 
 	.hamburger {
 		display: flex;
+	}
+
+	nav {
+		padding-bottom: 20px;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nl-fr {
+		margin-left: 50px;
 	}
 }
 
