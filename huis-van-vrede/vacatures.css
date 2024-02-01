@@ -175,6 +175,7 @@ header {
 
 .pins-text a {
 	color: #c3382f;
+	text-decoration: underline;
 }
 
 .letter-pins {
@@ -188,9 +189,10 @@ header {
 
 .jobs h2 + p a {
 	color: #c3382f;
-	text-decoration: underline;
-	margin: 0px 8px 0px 0px;
+	margin: 0px;
 	background-color: rgba(0, 0, 0, 0);
+	font-family: "helvetica_neue_lt_std65Md", sans-serif;
+	text-decoration: underline;
 }
 
 /*formulier*/
