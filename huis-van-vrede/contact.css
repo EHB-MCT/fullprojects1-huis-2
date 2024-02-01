@@ -75,7 +75,6 @@ nav li a {
 }
 
 nav img {
-	width: 80%;
 	margin: 10px 0px;
 }
 
@@ -155,11 +154,11 @@ header {
 
 @media screen and (max-width: 768px) {
 	p {
-		font-size: 10pt;
+		font-size: 13pt;
 	}
 
 	h3 {
-		font-size: 20pt;
+		font-size: 15pt;
 	}
 	h2 {
 		font-size: 24pt;

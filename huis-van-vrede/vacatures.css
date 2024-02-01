@@ -87,7 +87,6 @@ nav li a {
 }
 
 nav img {
-	width: 80%;
 	margin: 10px 0px;
 }
 
@@ -320,11 +319,11 @@ input {
 	}
 
 	h2 {
-		font-size: 24pt;
+		font-size: 30pt;
 	}
 
 	p {
-		font-size: 10pt;
+		font-size: 13pt;
 	}
 }
 

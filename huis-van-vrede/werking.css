@@ -93,7 +93,6 @@ nav li a {
 }
 
 nav img {
-	width: 80%;
 	margin: 10px 0px;
 }
 
@@ -260,8 +259,8 @@ header img {
 	width: 80%;
 }
 /* RESPONSIVE */
-/* RESPONSIVE */
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 376px) {
 	h1 {
 		font-size: 30pt;
 	}
@@ -302,13 +301,6 @@ header img {
 	header img {
 		width: 100%;
 		margin-top: 5%;
-	}
-
-	.chest,
-	.kitchen {
-		width: 90%; /* Modification de la largeur à 100% */
-		height: auto;
-		margin: 5% 0;
 	}
 
 	.out2 {
@@ -371,22 +363,33 @@ header img {
 	}
 }
 
-.hamburger {
-	display: none;
-}
-
-#hider {
-	display: contents;
-}
-
-/*RESPONSIVE*/
-
-@media screen and (max-width: 1113px) {
-	#hider {
-		display: none;
+@media screen and (max-width: 768px) {
+	.target-group {
+		flex-flow: column;
 	}
 
-	.hamburger {
-		display: flex;
+	.target-group-text {
+		text-align: center;
+		margin: auto;
+		width: auto;
+	}
+
+	.chest {
+		margin: auto;
+		width: 50%;
+		margin-bottom: 10%;
+	}
+
+	.kitchen {
+		width: 50%;
+		margin-bottom: 15%;
+	}
+
+	p {
+		font-size: 13pt;
+	}
+
+	h2 {
+		font-size: 30pt;
 	}
 }
