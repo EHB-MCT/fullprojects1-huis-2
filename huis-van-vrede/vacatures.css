@@ -325,6 +325,11 @@ input {
 	p {
 		font-size: 13pt;
 	}
+
+	.pins-image {
+		margin-top: -30%;
+		width: 20%;
+	}
 }
 
 @media screen and (max-width: 1488px) {

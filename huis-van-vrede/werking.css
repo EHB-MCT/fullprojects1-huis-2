@@ -366,6 +366,13 @@ header img {
 	.sponsors {
 		flex-wrap: wrap;
 	}
+	.hamburger {
+		display: none;
+	}
+
+	#hider {
+		display: contents;
+	}
 }
 
 @media screen and (max-width: 768px) {
