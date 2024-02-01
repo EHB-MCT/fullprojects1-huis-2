@@ -203,24 +203,8 @@ header {
 		font-size: 30pt;
 	}
 
-	.support-us {
-		flex-direction: column;
-	}
-
-	.support-us-text {
-		width: 100%;
-		margin: 0 auto;
-	}
 	h1 {
 		font-size: 30pt;
-	}
-
-	h2 {
-		font-size: 24pt;
-	}
-
-	p {
-		font-size: 10pt;
 	}
 }
 
@@ -253,18 +237,5 @@ header {
 	}
 	.nl-fr {
 		margin-left: 50px;
-	}
-}
-@media screen and (max-width: 750px) {
-	.banner {
-		width: 100%;
-		margin: 0 auto;
-	}
-	.support-us {
-		flex-direction: column;
-	}
-	.support-us-text {
-		width: 100%;
-		margin: 0 auto;
 	}
 }
