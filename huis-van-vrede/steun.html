@@ -25,13 +25,12 @@
 							<img src="images/logo.png" alt="logo"
 						/></a>
 					</div>
-					<div class="hamburger">
+					<div id="hider">
 						<ul>
 							<li><a href="home.html">HOME</a></li>
 							<li><a href="werking.html">WERKING</a></li>
 							<li><a href="publicaties.html">PUBLICATIES</a></li>
 							<br />
-
 							<li class="steun active nav"><a href="#">STEUN ONS</a></li>
 							<li class="vacature"><a href="vacatures.html">VACATURES</a></li>
 							<li class="contact"><a href="contact.html">CONTACT</a></li>
@@ -39,8 +38,13 @@
 						<ul class="nl-fr">
 							<li class="active"><a href="#">NL</a></li>
 							<li>|</li>
-							<li><a href="contactFR.html">FR</a></li>
+							<li><a href="steunFR.html">FR</a></li>
 						</ul>
+					</div>
+					<div class="hamburger">
+						<a href="javascript:void(0);" onclick="myFunction()"
+							><img src="images/hamburger.png" alt="hamburger"
+						/></a>
 					</div>
 				</nav>
 			</div>
@@ -91,5 +95,16 @@
 				</div>
 			</footer>
 		</div>
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("hider");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+		</script>
 	</body>
 </html>

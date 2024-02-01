@@ -38,6 +38,7 @@ nav {
 
 nav div {
 	display: flex;
+	align-items: center;
 }
 
 nav div:first-child {
@@ -80,7 +81,6 @@ nav li a:hover {
 
 .nl-fr {
 	padding: 0;
-	margin-top: 5%;
 	display: inline;
 }
 
@@ -95,16 +95,6 @@ nav li a:hover {
 }
 
 .nav {
-	padding: 1px 10px;
-}
-
-.active {
-	padding: 10px;
-	background-color: #c7d770;
-	border-radius: 30px;
-}
-
-.support-us-button {
 	padding: 1px 10px;
 }
 
@@ -152,8 +142,8 @@ a {
 .banner {
 	width: 50%;
 	height: 50%;
-	margin-top: 2%;
 	margin-left: 5%;
+	margin-bottom: 2%;
 }
 
 .bottom-stripe {
@@ -170,28 +160,57 @@ a {
 	width: 80%;
 }
 
+.hamburger {
+	display: none;
+}
+
+#hider {
+	display: contents;
+}
+
 /*RESPONSIVE*/
+<<<<<<< HEAD
 @media screen and (max-width: 768px) {
 	p {
 		font-size: 10pt;
+=======
+
+@media screen and (max-width: 1113px) {
+	#hider {
+		display: none;
+	}
+
+	.hamburger {
+		display: flex;
+	}
+
+	nav {
+		padding-bottom: 20px;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nl-fr {
+		margin-left: 50px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.banner {
+		width: 100%;
+		margin: 0 auto;
+>>>>>>> 9e7e2ec8ed4aa7fb3fba7aaec35a9c1ca6824239
 	}
 
 	.support-us {
-		display: flex;
-		flex-flow: column;
-	}
-
-	.banner {
-		margin-left: 10%;
-		width: 80%;
+		flex-direction: column;
 	}
 
 	.support-us-text {
-		text-align: center;
 		width: 100%;
-	}
-	/*HAMBURGER MENU*/
-	.hamburger {
-		display: hidden;
+		margin: 0 auto;
 	}
 }
