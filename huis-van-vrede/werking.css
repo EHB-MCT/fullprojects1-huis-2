@@ -258,6 +258,11 @@ header img {
 .sponsors img {
 	width: 80%;
 }
+
+.hamburger {
+	display: none;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 376px) {
