@@ -80,6 +80,7 @@ nav li a:hover {
 }
 
 .nl-fr {
+	background-color: #red;
 	padding: 0;
 	/*margin-top: 5%;*/
 	display: inline;
@@ -182,6 +183,19 @@ a {
 
 	.hamburger {
 		display: flex;
+	}
+
+	nav {
+		padding-bottom: 20px;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nl-fr {
+		margin-left: 50px;
 	}
 }
 
