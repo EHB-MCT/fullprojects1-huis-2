@@ -93,7 +93,6 @@ nav li a {
 }
 
 nav img {
-	width: 80%;
 	margin: 10px 0px;
 }
 
@@ -259,6 +258,11 @@ header img {
 .sponsors img {
 	width: 80%;
 }
+
+.hamburger {
+	display: none;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 376px) {
