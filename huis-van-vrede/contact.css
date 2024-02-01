@@ -56,6 +56,16 @@ nav {
 
 nav div {
 	display: flex;
+	align-items: center;
+}
+
+nav div:first-child {
+	flex: 1;
+}
+
+nav div:last-child {
+	flex: 4;
+	justify-content: right;
 }
 
 nav li {
@@ -88,8 +98,6 @@ nav li a:hover {
 }
 
 .nl-fr {
-	padding: 0;
-	margin-top: 5%;
 	display: inline;
 }
 
@@ -156,6 +164,10 @@ header {
 	display: none;
 }
 
+#hider {
+	display: contents;
+}
+
 @media screen and (max-width: 468px) {
 	.align-center {
 		margin-top: 35%;
@@ -174,10 +186,6 @@ header {
 
 	h1 {
 		font-size: 30pt;
-	}
-
-	p {
-		font-size: 13pt;
 	}
 
 	h3 {
@@ -213,10 +221,8 @@ header {
 	}
 
 	.hamburger {
-		display: flex;
 		display: block;
-		margin-top: 20px;
-		margin-bottom: 20px;
+		margin: 20px 0px;
 	}
 
 	nav img {
@@ -228,13 +234,15 @@ header {
 		padding-bottom: 20px;
 		display: flex;
 		flex-direction: column;
+		text-align: center;
 	}
 
 	ul {
 		display: flex;
 		flex-direction: column;
 	}
-	.nl-fr {
-		margin-left: 50px;
+
+	nav br {
+		display: none;
 	}
 }

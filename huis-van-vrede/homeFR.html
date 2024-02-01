@@ -17,20 +17,40 @@
 	</head>
 
 	<body>
-		<nav>
-			<a href="homeFR.html"> <img src="images/logo.png" alt="logo" /></a>
-			<ul>
-				<li class="active home-button"><a href="#">ACCUEIL</a></li>
-				<li><a href="werking FR.html">OPÉRATION</a></li>
-				<li><a href="publicatiesFR.html">PUBLICATIONS</a></li>
-				<li><a href="steunFR.html">NOUS AIDER</a></li>
-				<li><a href="werking FR.html">EMPLOIS</a></li>
-				<li><a href="contactFR.html">CONTACT</a></li>
-				<li><a href="home.html">NL</a></li>
-				<li>|</li>
-				<li class="active"><a href="#">FR</a></li>
-			</ul>
-		</nav>
+		<div class="wrapper-navigation">
+			<div class="wrapper">
+				<nav>
+					<div>
+						<a href="homeFR.html" class="logo">
+							<img src="images/logo.png" alt="logo"
+						/></a>
+					</div>
+					<div id="hider">
+						<ul>
+							<li>
+								<a class="active home-button" href="homeFR.html">ACCUEIL</a>
+							</li>
+							<li><a href="werking FR.html">OPÉRATION</a></li>
+							<li><a href="publicatiesFR.html">PUBLICATIONS</a></li>
+							<br />
+							<li><a href="steunFR.html">NOUS AIDER</a></li>
+							<li><a href="vacaturesFR.html">EMPLOIS</a></li>
+							<li><a href="contactFR.html">CONTACT</a></li>
+						</ul>
+						<ul class="nl-fr">
+							<li><a href="home.html">NL</a></li>
+							<li>|</li>
+							<li class="active"><a href="homeFR.html">FR</a></li>
+						</ul>
+					</div>
+					<div class="hamburger">
+						<a href="javascript:void(0);" onclick="myFunction()"
+							><img src="images/hamburger.png" alt="hamburger"
+						/></a>
+					</div>
+				</nav>
+			</div>
+		</div>
 		<div class="wrapper">
 			<div class="intro">
 				<div class="intro-house">
@@ -107,5 +127,16 @@
 				</footer>
 			</div>
 		</div>
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("hider");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+		</script>
 	</body>
 </html>

@@ -32,36 +32,59 @@ html {
 /* NAVIGATION */
 nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	background-image: url(images/nav-bricks.png);
+}
+
+nav div {
+	display: flex;
+	align-items: center;
+}
+
+nav div:first-child {
+	flex: 1;
+}
+
+nav div:last-child {
+	flex: 4;
+	justify-content: right;
 }
 
 nav li {
-	display: inline;
-	margin: 0 20px;
+	display: inline-block;
+	margin: 1.5% 30px;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
 }
 
 nav li a {
 	color: #c3382f;
-	text-decoration: none;
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
+	text-decoration: none;
 }
 
 nav img {
 	margin: 10px 0px;
 }
 
-nav ul li:last-child a,
-nav ul li:nth-child(7) a,
+.nl-fr a,
 nav li a:hover {
 	color: #000;
 }
 
-nav ul li:nth-child(9),
-nav ul li:nth-child(7),
-nav ul li:nth-child(8) {
+.nl-fr li {
 	margin: 0px;
+}
+
+.nl-fr {
+	display: inline;
+}
+
+.wrapper-navigation {
+	background-image: url(images/nav-bricks.png);
 }
 
 .active {
@@ -70,7 +93,7 @@ nav ul li:nth-child(8) {
 	border-radius: 30px;
 }
 
-.nav {
+.home-button {
 	padding: 1px 10px;
 }
 
@@ -211,6 +234,14 @@ a {
 	animation-iteration-count: infinite;
 }
 
+.hamburger {
+	display: none;
+}
+
+#hider {
+	display: contents;
+}
+
 @keyframes before_after {
 	0% {
 		transform: translateX(0px);
@@ -269,10 +300,6 @@ a {
 		font-size: 13pt;
 	}
 
-	a {
-		font-size: 10pt;
-	}
-
 	.carousel {
 		width: 50%;
 	}
@@ -295,15 +322,6 @@ a {
 		margin-left: -10%;
 		margin-bottom: 10%;
 		width: 20%;
-	}
-	p {
-		font-size: 10pt;
-	}
-
-	.menu-icon {
-		display: block;
-		cursor: pointer;
-		/* Ajoutez ici votre icône de menu hamburger */
 	}
 
 	nav ul {
@@ -379,10 +397,6 @@ a {
 		margin: 0% 0% 0% 5%;
 	}
 
-	a {
-		font-size: 8pt;
-	}
-
 	.bottom-stripe {
 		margin-top: 10%;
 	}
@@ -430,14 +444,6 @@ a {
 	h1 {
 		font-size: 30pt;
 	}
-
-	h2 {
-		font-size: 24pt;
-	}
-
-	p {
-		font-size: 10pt;
-	}
 }
 
 @media screen and (max-width: 1113px) {
@@ -446,10 +452,8 @@ a {
 	}
 
 	.hamburger {
-		display: flex;
 		display: block;
-		margin-top: 20px;
-		margin-bottom: 20px;
+		margin: 20px 0px;
 	}
 
 	nav img {
@@ -461,16 +465,18 @@ a {
 		padding-bottom: 20px;
 		display: flex;
 		flex-direction: column;
+		text-align: center;
 	}
 
 	ul {
 		display: flex;
 		flex-direction: column;
 	}
-	.nl-fr {
-		margin-left: 50px;
+	nav br {
+		display: none;
 	}
 }
+
 @media screen and (max-width: 750px) {
 	.banner {
 		width: 100%;

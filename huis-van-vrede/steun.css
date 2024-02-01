@@ -197,10 +197,8 @@ a {
 	}
 
 	.hamburger {
-		display: flex;
 		display: block;
-		margin-top: 20px;
-		margin-bottom: 20px;
+		margin: 20px 0px;
 	}
 
 	nav img {
@@ -212,14 +210,15 @@ a {
 		padding-bottom: 20px;
 		display: flex;
 		flex-direction: column;
+		text-align: center;
 	}
 
 	ul {
 		display: flex;
 		flex-direction: column;
 	}
-	.nl-fr {
-		margin-left: 50px;
+	nav br {
+		display: none;
 	}
 }
 @media screen and (max-width: 750px) {
