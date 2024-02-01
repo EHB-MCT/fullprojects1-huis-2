@@ -75,7 +75,6 @@ nav li a {
 }
 
 nav img {
-	width: 80%;
 	margin: 10px 0px;
 }
 
@@ -160,6 +159,9 @@ header {
 
 	h3 {
 		font-size: 15pt;
+	}
+	h2 {
+		font-size: 24pt;
 	}
 
 	.flex div {
