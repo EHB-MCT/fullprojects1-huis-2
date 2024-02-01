@@ -16,22 +16,38 @@
 		<meta property="og:image" content="images/doek.jpg" />
 	</head>
 	<body>
-		<nav>
-			<a href="homeFR.html"> <img src="images/logo.png" alt="logo" /></a>
-			<ul>
-				<li><a href="homeFR.html">ACCUEIL</a></li>
-				<li><a href="werking FR.html">OPÉRATION</a></li>
-				<li><a href="publicatiesFR.html">PUBLICATIONS</a></li>
-				<li class="active support-us-button">
-					<a href="steunFR.html">NOUS AIDER</a>
-				</li>
-				<li><a href="vacaturesFR.html">EMPLOIS</a></li>
-				<li><a href="contactFR.html">CONTACT</a></li>
-				<li><a href="steun.html">NL</a></li>
-				<li>|</li>
-				<li class="active"><a href="steunFR.html">FR</a></li>
-			</ul>
-		</nav>
+		<div class="wrapper-navigation">
+			<div class="wrapper">
+				<nav>
+					<div>
+						<a href="homeFR.html" class="logo">
+							<img src="images/logo.png" alt="logo"
+						/></a>
+					</div>
+					<div id="hider">
+						<ul>
+							<li><a href="homeFR.html">ACCUEIL</a></li>
+							<li><a href="werking FR.html">OPÉRATION</a></li>
+							<li><a href="publicatiesFR.html">PUBLICATIONS</a></li>
+							<br />
+							<li><a class="active nav" href="steunFR.html">NOUS AIDER</a></li>
+							<li><a href="vacaturesFR.html">EMPLOIS</a></li>
+							<li><a href="contact.html">CONTACT</a></li>
+						</ul>
+						<ul class="nl-fr">
+							<li><a href="steun.html">NL</a></li>
+							<li>|</li>
+							<li class="active"><a href="steunFR.html">FR</a></li>
+						</ul>
+					</div>
+					<div class="hamburger">
+						<a href="javascript:void(0);" onclick="myFunction()"
+							><img src="images/hamburger.png" alt="hamburger"
+						/></a>
+					</div>
+				</nav>
+			</div>
+		</div>
 		<div class="wrapper">
 			<img src="images/house-roof.png" class="roof" alt="" />
 			<h2 class="support-title">Nous aider</h2>

@@ -67,6 +67,7 @@ nav li a {
 }
 
 nav img {
+	width: 80%;
 	margin: 10px 0px;
 }
 
@@ -80,8 +81,6 @@ nav li a:hover {
 }
 
 .nl-fr {
-	padding: 0;
-	/*margin-top: 5%;*/
 	display: inline;
 }
 
@@ -96,10 +95,6 @@ nav li a:hover {
 }
 
 .nav {
-	padding: 1px 10px;
-}
-
-.support-us-button {
 	padding: 1px 10px;
 }
 
