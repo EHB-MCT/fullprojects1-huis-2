@@ -358,3 +358,79 @@ input {
 		display: flex;
 	}
 }
+
+/*RESPONSIVE*/
+@media screen and (max-width: 768px) {
+	p {
+		font-size: 13pt;
+	}
+
+	h2 {
+		font-size: 30pt;
+	}
+
+	.support-us {
+		flex-direction: column;
+	}
+
+	.support-us-text {
+		width: 100%;
+		margin: 0 auto;
+	}
+	h1 {
+		font-size: 30pt;
+	}
+
+	h2 {
+		font-size: 24pt;
+	}
+
+	p {
+		font-size: 10pt;
+	}
+}
+
+@media screen and (max-width: 1113px) {
+	#hider {
+		display: none;
+	}
+
+	.hamburger {
+		display: flex;
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	nav img {
+		float: left;
+		margin-bottom: -10px;
+	}
+
+	nav {
+		padding-bottom: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+	}
+	.nl-fr {
+		margin-left: 50px;
+	}
+}
+@media screen and (max-width: 750px) {
+	.banner {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.support-us {
+		flex-direction: column;
+	}
+	.support-us-text {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
