@@ -152,16 +152,36 @@ header {
 	margin-top: 2%;
 }
 
+.hamburger {
+	display: none;
+}
+
+@media screen and (max-width: 468px) {
+	.align-center {
+		margin-top: 35%;
+	}
+}
+
+/*RESPONSIVE*/
 @media screen and (max-width: 768px) {
+	p {
+		font-size: 13pt;
+	}
+
+	h2 {
+		font-size: 30pt;
+	}
+
+	h1 {
+		font-size: 30pt;
+	}
+
 	p {
 		font-size: 13pt;
 	}
 
 	h3 {
 		font-size: 15pt;
-	}
-	h2 {
-		font-size: 24pt;
 	}
 
 	.flex div {
@@ -184,27 +204,6 @@ header {
 	}
 	.sponsors {
 		flex-wrap: wrap;
-	}
-}
-
-@media screen and (max-width: 468px) {
-	.align-center {
-		margin-top: 35%;
-	}
-}
-
-/*RESPONSIVE*/
-@media screen and (max-width: 768px) {
-	p {
-		font-size: 13pt;
-	}
-
-	h2 {
-		font-size: 30pt;
-	}
-
-	h1 {
-		font-size: 30pt;
 	}
 }
 
