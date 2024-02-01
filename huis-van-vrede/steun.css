@@ -38,6 +38,7 @@ nav {
 
 nav div {
 	display: flex;
+	align-items: center;
 }
 
 nav div:first-child {
@@ -96,12 +97,6 @@ nav li a:hover {
 
 .nav {
 	padding: 1px 10px;
-}
-
-.active {
-	padding: 10px;
-	background-color: #c7d770;
-	border-radius: 30px;
 }
 
 .support-us-button {
@@ -190,24 +185,18 @@ a {
 	}
 }
 
-@media screen and (max-width: 480px) {
-	p {
-		font-size: 10pt;
+@media screen and (max-width: 750px) {
+	.banner {
+		width: 100%;
+		margin: 0 auto;
 	}
 
 	.support-us {
-		display: flex;
-		flex-flow: column;
-	}
-
-	.banner {
-		margin-left: 10%;
-		width: 80%;
+		flex-direction: column;
 	}
 
 	.support-us-text {
-		text-align: center;
 		width: 100%;
+		margin: 0 auto;
 	}
-	/*HAMBURGER MENU*/
 }
