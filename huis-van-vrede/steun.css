@@ -32,49 +32,71 @@ html {
 /* NAVIGATION */
 nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	background-image: url(images/nav-bricks.png);
 }
 
-nav ul {
-	margin-right: 40px;
+nav div {
+	display: flex;
+	align-items: center;
+}
+
+nav div:first-child {
+	flex: 1;
+}
+
+nav div:last-child {
+	flex: 4;
+	justify-content: right;
 }
 
 nav li {
-	display: inline;
-	background-color: yellow;
-	margin: 0 20px;
+	display: inline-block;
+	margin: 1.5% 30px;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
 }
 
 nav li a {
 	color: #c3382f;
-	text-decoration: none;
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
+	text-decoration: none;
 }
 
 nav img {
-	background-color: purple;
-	width: 50%;
-	margin: 10px 40px;
+	margin: 10px 0px;
 }
 
-nav ul li:last-child a,
-nav ul li:nth-child(7) a,
+.nl-fr a,
 nav li a:hover {
 	color: #000;
 }
 
-nav ul li:nth-child(9),
-nav ul li:nth-child(7),
-nav ul li:nth-child(8) {
+.nl-fr li {
 	margin: 0px;
+}
+
+.nl-fr {
+	padding: 0;
+	/*margin-top: 5%;*/
+	display: inline;
+}
+
+.wrapper-navigation {
+	background-image: url(images/nav-bricks.png);
 }
 
 .active {
 	padding: 10px;
 	background-color: #c7d770;
 	border-radius: 30px;
+}
+
+.nav {
+	padding: 1px 10px;
 }
 
 .support-us-button {
@@ -94,7 +116,7 @@ h2 {
 
 p {
 	font-family: "helvetica_neue_lt_std65Md", sans-serif;
-	font-size: 18pt;
+	font-size: 15pt;
 }
 
 a {
@@ -125,8 +147,8 @@ a {
 .banner {
 	width: 50%;
 	height: 50%;
-	margin-top: 2%;
 	margin-left: 5%;
+	margin-bottom: 2%;
 }
 
 .bottom-stripe {
@@ -143,28 +165,38 @@ a {
 	width: 80%;
 }
 
+.hamburger {
+	display: none;
+}
+
+#hider {
+	display: contents;
+}
+
 /*RESPONSIVE*/
-@media screen and (max-width: 480px) {
-	p {
-		font-size: 14pt;
+
+@media screen and (max-width: 1113px) {
+	#hider {
+		display: none;
+	}
+
+	.hamburger {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.banner {
+		width: 100%;
+		margin: 0 auto;
 	}
 
 	.support-us {
-		display: flex;
-		flex-flow: column;
-	}
-
-	.banner {
-		margin-left: 10%;
-		width: 80%;
+		flex-direction: column;
 	}
 
 	.support-us-text {
-		text-align: center;
 		width: 100%;
-	}
-	/*HAMBURGER MENU*/
-	.nav {
-		display: hidden;
+		margin: 0 auto;
 	}
 }

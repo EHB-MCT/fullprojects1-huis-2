@@ -96,7 +96,7 @@ h3 {
 
 p {
 	font-family: "helvetica_neue_lt_std65Md", sans-serif;
-	font-size: 18pt;
+	font-size: 15pt;
 }
 
 a {
@@ -235,7 +235,7 @@ a {
 		margin-top: 80%;
 		width: 200%;
 		margin-left: -35%;
-		margin-bottom: 110%;
+		margin-bottom: 40%;
 	}
 
 	.menu-icon {
@@ -283,7 +283,7 @@ a {
 	.house-peace {
 		width: 50%;
 		height: 50%;
-		margin: 25% 0% -2% 25%;
+		margin: 10% 0% -2% 25%;
 	}
 
 	.target-group {
@@ -296,7 +296,7 @@ a {
 	}
 
 	p {
-		font-size: 14pt;
+		font-size: 10pt;
 		margin-bottom: 10%;
 	}
 
@@ -319,13 +319,15 @@ a {
 	}
 
 	.carousel {
-		margin-left: -10%;
+		margin-left: -5%;
 		margin-top: 3%;
 	}
 
 	.images_out_1 {
 		width: 90%;
+		border: 5px solid #c7d770;
 	}
+
 	.sponsors a {
 		width: 30%;
 	}
