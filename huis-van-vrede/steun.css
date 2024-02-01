@@ -176,11 +176,20 @@ a {
 	}
 
 	.hamburger {
-		display: flex;
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	nav img {
+		float: left;
+		margin-bottom: -10px;
 	}
 
 	nav {
 		padding-bottom: 20px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	ul {
