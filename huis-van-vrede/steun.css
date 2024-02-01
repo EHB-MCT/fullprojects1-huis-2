@@ -169,40 +169,9 @@ a {
 }
 
 /*RESPONSIVE*/
-<<<<<<< HEAD
 @media screen and (max-width: 768px) {
 	p {
 		font-size: 10pt;
-=======
-
-@media screen and (max-width: 1113px) {
-	#hider {
-		display: none;
-	}
-
-	.hamburger {
-		display: flex;
-	}
-
-	nav {
-		padding-bottom: 20px;
-	}
-
-	ul {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.nl-fr {
-		margin-left: 50px;
-	}
-}
-
-@media screen and (max-width: 750px) {
-	.banner {
-		width: 100%;
-		margin: 0 auto;
->>>>>>> 9e7e2ec8ed4aa7fb3fba7aaec35a9c1ca6824239
 	}
 
 	.support-us {

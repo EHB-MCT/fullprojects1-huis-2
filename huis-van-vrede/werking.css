@@ -364,7 +364,6 @@ header img {
 	}
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 768px) {
 	.target-group {
 		flex-flow: column;
@@ -385,24 +384,5 @@ header img {
 	.kitchen {
 		width: 50%;
 		margin-bottom: 15%;
-=======
-.hamburger {
-	display: none;
-}
-
-#hider {
-	display: contents;
-}
-
-/*RESPONSIVE*/
-
-@media screen and (max-width: 1113px) {
-	#hider {
-		display: none;
-	}
-
-	.hamburger {
-		display: flex;
->>>>>>> 9e7e2ec8ed4aa7fb3fba7aaec35a9c1ca6824239
 	}
 }
