@@ -427,14 +427,6 @@ header img {
 	h1 {
 		font-size: 30pt;
 	}
-
-	h2 {
-		font-size: 24pt;
-	}
-
-	p {
-		font-size: 10pt;
-	}
 }
 
 @media screen and (max-width: 1113px) {
