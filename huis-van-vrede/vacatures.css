@@ -50,40 +50,62 @@ a {
 }
 
 /* navigatie */
-
 nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	background-image: url(images/nav-bricks.png);
-	margin-bottom: 3%;
+}
+
+nav div {
+	display: flex;
+	align-items: center;
+}
+
+nav div:first-child {
+	flex: 1;
+}
+
+nav div:last-child {
+	flex: 4;
+	justify-content: right;
 }
 
 nav li {
-	display: inline;
-	margin: 0 20px;
+	display: inline-block;
+	margin: 1.5% 30px;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
 }
 
 nav li a {
 	color: #c3382f;
 	font-family: "helvetica_rounded_lt_stdblack", sans-serif;
+	text-decoration: none;
 }
 
 nav img {
-	width: 50%;
+	width: 80%;
 	margin: 10px 0px;
 }
 
-nav ul li:nth-child(9) a,
-nav ul li:nth-child(7) a,
+.nl-fr a,
 nav li a:hover {
 	color: #000;
 }
 
-nav ul li:nth-child(9),
-nav ul li:nth-child(7),
-nav ul li:nth-child(8) {
+.nl-fr li {
 	margin: 0px;
+}
+
+.nl-fr {
+	display: inline;
+}
+
+.wrapper-navigation {
+	background-image: url(images/nav-bricks.png);
 }
 
 .active {
@@ -175,6 +197,7 @@ header {
 
 .pins-text a {
 	color: #c3382f;
+	text-decoration: underline;
 }
 
 .letter-pins {
@@ -188,9 +211,10 @@ header {
 
 .jobs h2 + p a {
 	color: #c3382f;
-	text-decoration: underline;
-	margin: 0px 8px 0px 0px;
+	margin: 0px;
 	background-color: rgba(0, 0, 0, 0);
+	font-family: "helvetica_neue_lt_std65Md", sans-serif;
+	text-decoration: underline;
 }
 
 /*formulier*/
@@ -303,5 +327,25 @@ input {
 	nav li {
 		margin-bottom: 10px;
 		display: inline-block;
+	}
+}
+
+.hamburger {
+	display: none;
+}
+
+#hider {
+	display: contents;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1113px) {
+	#hider {
+		display: none;
+	}
+
+	.hamburger {
+		display: flex;
 	}
 }
